@@ -33,7 +33,7 @@ namespace Interface
         //接口案例
         static void Main(string[] args)
         {
-            //Body body=new Body();
+            Body body=new Body();
             //body.Name = "张三";
             //body.Eat();
             //body.SayHi("李四");

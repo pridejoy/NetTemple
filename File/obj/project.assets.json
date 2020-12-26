@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1234\\source\\repos\\NetTemple\\File\\File.csproj",
-      "projectName": "File",
-      "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\File\\File.csproj",
+      "projectUniqueName": "C:\\Users\\1234\\source\\repos\\NetTemple\\File\\Files.csproj",
+      "projectName": "Files",
+      "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\File\\Files.csproj",
       "packagesPath": "C:\\Users\\1234\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\File\\obj\\",
       "projectStyle": "PackageReference",

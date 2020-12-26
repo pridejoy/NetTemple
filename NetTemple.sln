@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection", "NetTemple\Reflection.csproj", "{8FCAE73F-F444-465D-857E-91C93C740BE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{ECD4BB85-EF83-4703-A652-CD18CB3C7861}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface", "Interface\Interface.csproj", "{ECD4BB85-EF83-4703-A652-CD18CB3C7861}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "File", "File\File.csproj", "{CF2BFD7E-07FC-4052-9D03-B121C04B8AE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Files", "File\Files.csproj", "{CF2BFD7E-07FC-4052-9D03-B121C04B8AE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

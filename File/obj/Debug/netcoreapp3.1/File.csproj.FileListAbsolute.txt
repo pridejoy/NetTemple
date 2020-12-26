@@ -10,3 +10,4 @@ C:\Users\1234\source\repos\NetTemple\File\obj\Debug\netcoreapp3.1\File.csproj.Co
 C:\Users\1234\source\repos\NetTemple\File\obj\Debug\netcoreapp3.1\File.dll
 C:\Users\1234\source\repos\NetTemple\File\obj\Debug\netcoreapp3.1\File.pdb
 C:\Users\1234\source\repos\NetTemple\File\obj\Debug\netcoreapp3.1\File.genruntimeconfig.cache
+C:\Users\1234\source\repos\NetTemple\File\obj\Debug\netcoreapp3.1\File.csprojAssemblyReference.cache
