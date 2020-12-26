@@ -1,0 +1,13 @@
+C:\Users\1234\source\repos\NetTemple\NetTemple\bin\Debug\netcoreapp3.1\NetTemple.exe
+C:\Users\1234\source\repos\NetTemple\NetTemple\bin\Debug\netcoreapp3.1\NetTemple.deps.json
+C:\Users\1234\source\repos\NetTemple\NetTemple\bin\Debug\netcoreapp3.1\NetTemple.runtimeconfig.json
+C:\Users\1234\source\repos\NetTemple\NetTemple\bin\Debug\netcoreapp3.1\NetTemple.runtimeconfig.dev.json
+C:\Users\1234\source\repos\NetTemple\NetTemple\bin\Debug\netcoreapp3.1\NetTemple.dll
+C:\Users\1234\source\repos\NetTemple\NetTemple\bin\Debug\netcoreapp3.1\NetTemple.pdb
+C:\Users\1234\source\repos\NetTemple\NetTemple\obj\Debug\netcoreapp3.1\NetTemple.csprojAssemblyReference.cache
+C:\Users\1234\source\repos\NetTemple\NetTemple\obj\Debug\netcoreapp3.1\NetTemple.AssemblyInfoInputs.cache
+C:\Users\1234\source\repos\NetTemple\NetTemple\obj\Debug\netcoreapp3.1\NetTemple.AssemblyInfo.cs
+C:\Users\1234\source\repos\NetTemple\NetTemple\obj\Debug\netcoreapp3.1\NetTemple.csproj.CoreCompileInputs.cache
+C:\Users\1234\source\repos\NetTemple\NetTemple\obj\Debug\netcoreapp3.1\NetTemple.dll
+C:\Users\1234\source\repos\NetTemple\NetTemple\obj\Debug\netcoreapp3.1\NetTemple.pdb
+C:\Users\1234\source\repos\NetTemple\NetTemple\obj\Debug\netcoreapp3.1\NetTemple.genruntimeconfig.cache

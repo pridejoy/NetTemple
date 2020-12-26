@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection", "NetTemple\Reflection.csproj", "{8FCAE73F-F444-465D-857E-91C93C740BE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{ECD4BB85-EF83-4703-A652-CD18CB3C7861}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "File", "File\File.csproj", "{CF2BFD7E-07FC-4052-9D03-B121C04B8AE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FCAE73F-F444-465D-857E-91C93C740BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FCAE73F-F444-465D-857E-91C93C740BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FCAE73F-F444-465D-857E-91C93C740BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FCAE73F-F444-465D-857E-91C93C740BE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECD4BB85-EF83-4703-A652-CD18CB3C7861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD4BB85-EF83-4703-A652-CD18CB3C7861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD4BB85-EF83-4703-A652-CD18CB3C7861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD4BB85-EF83-4703-A652-CD18CB3C7861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF2BFD7E-07FC-4052-9D03-B121C04B8AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2BFD7E-07FC-4052-9D03-B121C04B8AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2BFD7E-07FC-4052-9D03-B121C04B8AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2BFD7E-07FC-4052-9D03-B121C04B8AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6857292-1ED6-4745-91C4-A810BA862DDD}
+	EndGlobalSection
+EndGlobal
