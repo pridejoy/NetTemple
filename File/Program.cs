@@ -91,6 +91,20 @@ namespace Files
 
             //Directory.Delete(@"c");//删除文件夹名    //目录里面是空的
 
+            try
+            {
+                Directory.Delete(@"c");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                Console.WriteLine("文件夹下不是空的");
+                if (Console.ReadLine().Trim()=="y")
+                {
+                    Directory.Delete(@"c",true); //有文件也删除
+                }
+                throw;
+            }
 
 
             Console.ReadLine();
