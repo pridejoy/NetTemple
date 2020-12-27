@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface", "Interface\Inte
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Files", "File\Files.csproj", "{CF2BFD7E-07FC-4052-9D03-B121C04B8AE3}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serializations", "Serializations\Serializations.csproj", "{4405C8A0-84C3-4292-99F3-F95A8F9CF4A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{9354DFA5-D206-4E1C-8DAC-62010BE1C22A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{CF2BFD7E-07FC-4052-9D03-B121C04B8AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF2BFD7E-07FC-4052-9D03-B121C04B8AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF2BFD7E-07FC-4052-9D03-B121C04B8AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4405C8A0-84C3-4292-99F3-F95A8F9CF4A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4405C8A0-84C3-4292-99F3-F95A8F9CF4A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4405C8A0-84C3-4292-99F3-F95A8F9CF4A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4405C8A0-84C3-4292-99F3-F95A8F9CF4A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9354DFA5-D206-4E1C-8DAC-62010BE1C22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9354DFA5-D206-4E1C-8DAC-62010BE1C22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9354DFA5-D206-4E1C-8DAC-62010BE1C22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9354DFA5-D206-4E1C-8DAC-62010BE1C22A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

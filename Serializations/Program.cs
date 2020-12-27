@@ -176,7 +176,6 @@ namespace Serializations
             string json = @"{ 'Name':'C#','id':'1'}";
             Student descJsonStu = JsonConvert.DeserializeObject<Student>(json);//反序列化
             Console.WriteLine(string.Format("反序列化： ID={0},Name={1}", descJsonStu.id, descJsonStu.Name));
-            Console.ReadKey();
 
             #endregion
             #endregion
