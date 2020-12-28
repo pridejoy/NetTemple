@@ -10,9 +10,7 @@ namespace Delegates
     //定义一个委托 委托需要委托名，返回的参数
     public delegate void MyDelegate();
 
-    public delegate void MyDelegate2(int A,int B);
-
-    public delegate string MyDelegate3(string Name);
+    public delegate string MyDelegate2(string Name);
 
     class Program
     {
@@ -82,16 +80,46 @@ namespace Delegates
             //Console.WriteLine(fu(6));
 
             //多播委托
-            Action duobo1 = Duobo;
-            Action duobo2 = Duobo2;
-            Action duobo3 = Duobo3;
-            Action duobo4 = duobo2+duobo2+duobo3;
-            duobo4(); //按照添加的顺序执行
+            //Action duobo1 = Duobo;
+            //Action duobo2 = Duobo2;
+            //Action duobo3 = Duobo3;
+            //Action duobo4 = duobo2+duobo2+duobo3;
+            //duobo4(); //按照添加的顺序执行
 
 
+            //
+            // 事件在类中声明且生成，且通过使用同一个类或其他类中的委托与事件处理程序关联
+
+            //1.在类的内部声明事件，首先必须声明该事件的委托类型
+            EnvenStudent estu = new EnvenStudent();
+            estu.OldEnvet += Old_Event;
+            estu.YongEnvet += Yon_Event;
+            while (true)
+            {
+                Console.WriteLine("请输入年龄");
+                var age = int.Parse(Console.ReadLine());
+                if (age <= 0) return ;
+                estu.Age = age;
+            }
+
+            //do
+            //{
+            //    var age = Console.Read();
+
+            //} while (b);
 
 
             Console.WriteLine("Hello World!");
+        }
+
+        public static void Yon_Event()
+        {
+            Console.WriteLine("录入年轻的人");
+        }
+
+        public static void Old_Event()
+        {
+            Console.WriteLine("录入年长的");
         }
     }
 }

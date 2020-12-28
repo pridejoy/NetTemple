@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1234\\source\\repos\\NetTemple\\NetTemple\\Reflection.csproj",
-      "projectName": "Reflection",
-      "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\NetTemple\\Reflection.csproj",
+      "projectUniqueName": "C:\\Users\\1234\\source\\repos\\NetTemple\\Events\\Events.csproj",
+      "projectName": "Events",
+      "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\Events\\Events.csproj",
       "packagesPath": "C:\\Users\\1234\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\NetTemple\\obj\\",
+      "outputPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\Events\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
