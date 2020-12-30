@@ -33,7 +33,7 @@ namespace Files
             //File.WriteAllText("b.txt", "Hello word");
             //Console.WriteLine(File.ReadAllText("b.txt"));
 
-            //var writer=  File.AppendText("b.txt");
+            var writer=  File.AppendText("b.txt");
             //writer.WriteLine("张三");
             //writer.Close();
 
@@ -63,7 +63,7 @@ namespace Files
             // 1024字节= 千字节 =1kb
             // 1024kb =1M
 
-            //FileInfo file = new FileInfo("c.txt");
+            FileInfo file = new FileInfo("c.txt");
             //Console.WriteLine(file.Length);    //文件大小
             //Console.WriteLine(file.FullName);  //完全路径
             //Console.WriteLine(file.Extension); //文件后缀

@@ -1,0 +1,13 @@
+C:\Users\1234\source\repos\NetTemple\Asynchronous\bin\Debug\netcoreapp3.1\Asynchronous.exe
+C:\Users\1234\source\repos\NetTemple\Asynchronous\bin\Debug\netcoreapp3.1\Asynchronous.deps.json
+C:\Users\1234\source\repos\NetTemple\Asynchronous\bin\Debug\netcoreapp3.1\Asynchronous.runtimeconfig.json
+C:\Users\1234\source\repos\NetTemple\Asynchronous\bin\Debug\netcoreapp3.1\Asynchronous.runtimeconfig.dev.json
+C:\Users\1234\source\repos\NetTemple\Asynchronous\bin\Debug\netcoreapp3.1\Asynchronous.dll
+C:\Users\1234\source\repos\NetTemple\Asynchronous\bin\Debug\netcoreapp3.1\Asynchronous.pdb
+C:\Users\1234\source\repos\NetTemple\Asynchronous\obj\Debug\netcoreapp3.1\Asynchronous.AssemblyInfoInputs.cache
+C:\Users\1234\source\repos\NetTemple\Asynchronous\obj\Debug\netcoreapp3.1\Asynchronous.AssemblyInfo.cs
+C:\Users\1234\source\repos\NetTemple\Asynchronous\obj\Debug\netcoreapp3.1\Asynchronous.csproj.CoreCompileInputs.cache
+C:\Users\1234\source\repos\NetTemple\Asynchronous\obj\Debug\netcoreapp3.1\Asynchronous.dll
+C:\Users\1234\source\repos\NetTemple\Asynchronous\obj\Debug\netcoreapp3.1\Asynchronous.pdb
+C:\Users\1234\source\repos\NetTemple\Asynchronous\obj\Debug\netcoreapp3.1\Asynchronous.genruntimeconfig.cache
+C:\Users\1234\source\repos\NetTemple\Asynchronous\obj\Debug\netcoreapp3.1\Asynchronous.csprojAssemblyReference.cache

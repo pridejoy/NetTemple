@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serializations", "Serializa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates", "Delegates\Delegates.csproj", "{9354DFA5-D206-4E1C-8DAC-62010BE1C22A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asynchronous", "Asynchronous\Asynchronous.csproj", "{7FE1AD82-06EA-4BF5-AE3E-16A0EEF3BB75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{9354DFA5-D206-4E1C-8DAC-62010BE1C22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9354DFA5-D206-4E1C-8DAC-62010BE1C22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9354DFA5-D206-4E1C-8DAC-62010BE1C22A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FE1AD82-06EA-4BF5-AE3E-16A0EEF3BB75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FE1AD82-06EA-4BF5-AE3E-16A0EEF3BB75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FE1AD82-06EA-4BF5-AE3E-16A0EEF3BB75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FE1AD82-06EA-4BF5-AE3E-16A0EEF3BB75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
