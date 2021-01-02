@@ -1,0 +1,9 @@
+C:\Users\1234\source\repos\NetTemple\Nlog.Framework\obj\Debug\netcoreapp3.1\Nlog.Framework.csprojAssemblyReference.cache
+C:\Users\1234\source\repos\NetTemple\Nlog.Framework\obj\Debug\netcoreapp3.1\Nlog.Framework.AssemblyInfoInputs.cache
+C:\Users\1234\source\repos\NetTemple\Nlog.Framework\obj\Debug\netcoreapp3.1\Nlog.Framework.AssemblyInfo.cs
+C:\Users\1234\source\repos\NetTemple\Nlog.Framework\obj\Debug\netcoreapp3.1\Nlog.Framework.csproj.CoreCompileInputs.cache
+C:\Users\1234\source\repos\NetTemple\Nlog.Framework\bin\Debug\netcoreapp3.1\Nlog.Framework.deps.json
+C:\Users\1234\source\repos\NetTemple\Nlog.Framework\bin\Debug\netcoreapp3.1\Nlog.Framework.dll
+C:\Users\1234\source\repos\NetTemple\Nlog.Framework\bin\Debug\netcoreapp3.1\Nlog.Framework.pdb
+C:\Users\1234\source\repos\NetTemple\Nlog.Framework\obj\Debug\netcoreapp3.1\Nlog.Framework.dll
+C:\Users\1234\source\repos\NetTemple\Nlog.Framework\obj\Debug\netcoreapp3.1\Nlog.Framework.pdb

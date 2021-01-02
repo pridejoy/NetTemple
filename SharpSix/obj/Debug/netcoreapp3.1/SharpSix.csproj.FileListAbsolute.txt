@@ -1,0 +1,13 @@
+C:\Users\1234\source\repos\NetTemple\SharpSix\bin\Debug\netcoreapp3.1\SharpSix.exe
+C:\Users\1234\source\repos\NetTemple\SharpSix\bin\Debug\netcoreapp3.1\SharpSix.deps.json
+C:\Users\1234\source\repos\NetTemple\SharpSix\bin\Debug\netcoreapp3.1\SharpSix.runtimeconfig.json
+C:\Users\1234\source\repos\NetTemple\SharpSix\bin\Debug\netcoreapp3.1\SharpSix.runtimeconfig.dev.json
+C:\Users\1234\source\repos\NetTemple\SharpSix\bin\Debug\netcoreapp3.1\SharpSix.dll
+C:\Users\1234\source\repos\NetTemple\SharpSix\bin\Debug\netcoreapp3.1\SharpSix.pdb
+C:\Users\1234\source\repos\NetTemple\SharpSix\obj\Debug\netcoreapp3.1\SharpSix.AssemblyInfoInputs.cache
+C:\Users\1234\source\repos\NetTemple\SharpSix\obj\Debug\netcoreapp3.1\SharpSix.AssemblyInfo.cs
+C:\Users\1234\source\repos\NetTemple\SharpSix\obj\Debug\netcoreapp3.1\SharpSix.csproj.CoreCompileInputs.cache
+C:\Users\1234\source\repos\NetTemple\SharpSix\obj\Debug\netcoreapp3.1\SharpSix.dll
+C:\Users\1234\source\repos\NetTemple\SharpSix\obj\Debug\netcoreapp3.1\SharpSix.pdb
+C:\Users\1234\source\repos\NetTemple\SharpSix\obj\Debug\netcoreapp3.1\SharpSix.genruntimeconfig.cache
+C:\Users\1234\source\repos\NetTemple\SharpSix\obj\Debug\netcoreapp3.1\SharpSix.csprojAssemblyReference.cache
