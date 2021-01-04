@@ -39,7 +39,8 @@ namespace Asynchronous
 
         public static Task Wait()
         {
-            Action action = () =>
+            Action
+                action = () =>
             {
                 Console.WriteLine("wait方法线程唯一标识前：--》休息两秒" + Thread.CurrentThread.ManagedThreadId.ToString());
                 Thread.Sleep(2000);

@@ -1,0 +1,13 @@
+C:\Users\1234\source\repos\NetTemple\ToDictionarys\bin\Debug\netcoreapp3.1\ToDictionarys.exe
+C:\Users\1234\source\repos\NetTemple\ToDictionarys\bin\Debug\netcoreapp3.1\ToDictionarys.deps.json
+C:\Users\1234\source\repos\NetTemple\ToDictionarys\bin\Debug\netcoreapp3.1\ToDictionarys.runtimeconfig.json
+C:\Users\1234\source\repos\NetTemple\ToDictionarys\bin\Debug\netcoreapp3.1\ToDictionarys.runtimeconfig.dev.json
+C:\Users\1234\source\repos\NetTemple\ToDictionarys\bin\Debug\netcoreapp3.1\ToDictionarys.dll
+C:\Users\1234\source\repos\NetTemple\ToDictionarys\bin\Debug\netcoreapp3.1\ToDictionarys.pdb
+C:\Users\1234\source\repos\NetTemple\ToDictionarys\obj\Debug\netcoreapp3.1\ToDictionarys.csprojAssemblyReference.cache
+C:\Users\1234\source\repos\NetTemple\ToDictionarys\obj\Debug\netcoreapp3.1\ToDictionarys.AssemblyInfoInputs.cache
+C:\Users\1234\source\repos\NetTemple\ToDictionarys\obj\Debug\netcoreapp3.1\ToDictionarys.AssemblyInfo.cs
+C:\Users\1234\source\repos\NetTemple\ToDictionarys\obj\Debug\netcoreapp3.1\ToDictionarys.csproj.CoreCompileInputs.cache
+C:\Users\1234\source\repos\NetTemple\ToDictionarys\obj\Debug\netcoreapp3.1\ToDictionarys.dll
+C:\Users\1234\source\repos\NetTemple\ToDictionarys\obj\Debug\netcoreapp3.1\ToDictionarys.pdb
+C:\Users\1234\source\repos\NetTemple\ToDictionarys\obj\Debug\netcoreapp3.1\ToDictionarys.genruntimeconfig.cache
