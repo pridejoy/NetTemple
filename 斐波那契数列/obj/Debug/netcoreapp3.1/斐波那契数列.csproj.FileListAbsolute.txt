@@ -1,0 +1,13 @@
+C:\Users\1234\source\repos\NetTemple\斐波那契数列\bin\Debug\netcoreapp3.1\斐波那契数列.exe
+C:\Users\1234\source\repos\NetTemple\斐波那契数列\bin\Debug\netcoreapp3.1\斐波那契数列.deps.json
+C:\Users\1234\source\repos\NetTemple\斐波那契数列\bin\Debug\netcoreapp3.1\斐波那契数列.runtimeconfig.json
+C:\Users\1234\source\repos\NetTemple\斐波那契数列\bin\Debug\netcoreapp3.1\斐波那契数列.runtimeconfig.dev.json
+C:\Users\1234\source\repos\NetTemple\斐波那契数列\bin\Debug\netcoreapp3.1\斐波那契数列.dll
+C:\Users\1234\source\repos\NetTemple\斐波那契数列\bin\Debug\netcoreapp3.1\斐波那契数列.pdb
+C:\Users\1234\source\repos\NetTemple\斐波那契数列\obj\Debug\netcoreapp3.1\斐波那契数列.csprojAssemblyReference.cache
+C:\Users\1234\source\repos\NetTemple\斐波那契数列\obj\Debug\netcoreapp3.1\斐波那契数列.AssemblyInfoInputs.cache
+C:\Users\1234\source\repos\NetTemple\斐波那契数列\obj\Debug\netcoreapp3.1\斐波那契数列.AssemblyInfo.cs
+C:\Users\1234\source\repos\NetTemple\斐波那契数列\obj\Debug\netcoreapp3.1\斐波那契数列.csproj.CoreCompileInputs.cache
+C:\Users\1234\source\repos\NetTemple\斐波那契数列\obj\Debug\netcoreapp3.1\斐波那契数列.dll
+C:\Users\1234\source\repos\NetTemple\斐波那契数列\obj\Debug\netcoreapp3.1\斐波那契数列.pdb
+C:\Users\1234\source\repos\NetTemple\斐波那契数列\obj\Debug\netcoreapp3.1\斐波那契数列.genruntimeconfig.cache

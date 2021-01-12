@@ -9,32 +9,16 @@ namespace Redis
     {
         static void Main(string[] args)
         {
+            //教程
+            //https://www.cnblogs.com/shiyh/p/8892309.html   
 
-            //1.引入 ServiceStack.Redis
-
-            //var client = new RedisClient("127.0.0.1", 6379);
-            //client.Set<int>("pwd", 1111);
-            //int pwd = client.Get<int>("pwd");
-            //Console.WriteLine(pwd);
-
-            //UserInfo userInfo = new UserInfo() { UserName = "zhangsan", UserPwd = "1111" };//</span>(底层使用json序列化 )    
-            //client.Set<UserInfo>("userInfo", userInfo);
-            //UserInfo user = client.Get<UserInfo>("userInfo");
-            //Console.WriteLine(user.UserName);
-
-            //List<UserInfo> list = new List<UserInfo>() { new UserInfo() { UserName = "lisi", UserPwd = "111" }, new UserInfo() { UserName = "wangwu", UserPwd = "123" } };
-            //client.Set<List<UserInfo>>("list", list);
-            //List<UserInfo> userInfoList = client.Get<List<UserInfo>>("list");
-
-            //client.Add("pwds", list);
-
-            //foreach (var item in userInfoList)
-            //{
-            //	Console.WriteLine(userInfo.UserName);
-            //}
-
+            //封装
+            //https://blog.csdn.net/wanlong360599336/article/details/46771477
 
             //在Redis中存储常用的5种数据类型：String,Hash,List,SetSorted set
+
+            //面试题
+            //https://www.redis.com.cn/redis-interview-questions.html
 
             RedisClient client = new RedisClient("127.0.0.1", 6379);
             //强制刷新所有DB(生成环境请慎用，会清掉所有DB中的key)。
@@ -66,13 +50,16 @@ namespace Redis
             Console.WriteLine("数据类型为：String.键:StringEntity,值:{0} {1}", Get_stud.id, Get_stud.Name);
             #endregion
 
-            #region Hash
+
+
+            #region  Hash
             client.SetEntryInHash("HashID", "Name", "张三");
             client.SetEntryInHash("HashID", "Age", "24");
             client.SetEntryInHash("HashID", "Sex", "男");
             client.SetEntryInHash("HashID", "Address", "上海市XX号XX室");
 
             List<string> HaskKey = client.GetHashKeys("HashID");
+
             foreach (string key in HaskKey)
             {
                 Console.WriteLine("HashID--Key:{0}", key);
@@ -91,6 +78,10 @@ namespace Redis
             }
             #endregion
 
+
+
+
+
             #region List
             /*
              * list是一个链表结构，主要功能是push,pop,获取一个范围的所有的值等，操作中key理解为链表名字。 
@@ -102,11 +93,14 @@ namespace Redis
             client.EnqueueItemOnList("QueueListId", "2.张四");
             client.EnqueueItemOnList("QueueListId", "3.王五");
             client.EnqueueItemOnList("QueueListId", "4.王麻子");
+            //得到List的总数
             var q = client.GetListCount("QueueListId");
             for (int i = 0; i < q; i++)
             {
+                //会让键值对消失
                 Console.WriteLine("QueueListId出队值：{0}", client.DequeueItemFromList("QueueListId"));   //出队(队列先进先出)
             }
+
 
             client.PushItemToList("StackListId", "1.张三");  //入栈
             client.PushItemToList("StackListId", "2.张四");
@@ -115,6 +109,7 @@ namespace Redis
             var p = client.GetListCount("StackListId");
             for (int i = 0; i < p; i++)
             {
+                //会让键值对消失
                 Console.WriteLine("StackListId出栈值：{0}", client.PopItemFromList("StackListId"));   //出栈(栈先进后出)
             }
 

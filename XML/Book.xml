@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<bookstore>
+	<book Type="必修课" ISBN="7-111-19149-2">
+		<title>数据结构</title>
+		<author>asd</author>
+		<price>30.00</price>
+
+	</book>
+	<book Type="必修课" ISBN="7-111-19149-3">
+		<title>路由型与交换型互联网基础</title>
+		<author>dasdada</author>
+		<price>27.00</price>
+
+	</book>
+	<book Type="必修课" ISBN="7-111-19149-4">
+		<title>计算机硬件技术基础</title>
+		<author>李继灿</author>
+		<price>25.00</price>
+
+	</book>
+	<book Type="必修课" ISBN="7-111-19149-5">
+		<title>软件质量保证与管理</title>
+		<author>张阿达</author>
+		<price>39.00</price>
+
+	</book>
+	<book Type="必修课" ISBN="7-111-19149-6">
+		<title>算法设计与分析</title>
+		<author>王红梅</author>
+		<price>23.00</price>
+
+	</book>
+	<book Type="选修课" ISBN="7-111-19149-1">
+		<title>计算机操作系统</title>
+		<author>7-111-19149-1</author>
+		<price>28</price>
+
+	</book>
+</bookstore>
