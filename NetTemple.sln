@@ -33,6 +33,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "基础", "基础", "{EC681E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "字符串", "字符串\字符串.csproj", "{78F63C3A-6068-4CA0-BCF3-F5BF152E496D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多维数组", "多维数组\多维数组.csproj", "{D99B9E1A-CC9E-4ACD-8855-CE5E4B8ECBFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,12 +97,17 @@ Global
 		{78F63C3A-6068-4CA0-BCF3-F5BF152E496D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78F63C3A-6068-4CA0-BCF3-F5BF152E496D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78F63C3A-6068-4CA0-BCF3-F5BF152E496D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D99B9E1A-CC9E-4ACD-8855-CE5E4B8ECBFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D99B9E1A-CC9E-4ACD-8855-CE5E4B8ECBFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D99B9E1A-CC9E-4ACD-8855-CE5E4B8ECBFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D99B9E1A-CC9E-4ACD-8855-CE5E4B8ECBFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{78F63C3A-6068-4CA0-BCF3-F5BF152E496D} = {EC681E60-CDDA-47DB-8A0B-1A2840C97DEF}
+		{D99B9E1A-CC9E-4ACD-8855-CE5E4B8ECBFE} = {EC681E60-CDDA-47DB-8A0B-1A2840C97DEF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6857292-1ED6-4745-91C4-A810BA862DDD}
