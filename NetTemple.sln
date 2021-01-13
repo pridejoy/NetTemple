@@ -21,13 +21,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDictionarys", "ToDictiona
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redis", "Redis\Redis.csproj", "{6B759C8A-587D-4785-8A25-AD09762B4EEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "斐波那契数列", "斐波那契数列\斐波那契数列.csproj", "{F75D8B2A-0228-4C59-A26B-C26050C18457}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "斐波那契数列", "斐波那契数列\斐波那契数列.csproj", "{F75D8B2A-0228-4C59-A26B-C26050C18457}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "角谷猜想", "角谷猜想\角谷猜想.csproj", "{03B3C650-BFDB-4FB4-A808-DF47F7A758B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "角谷猜想", "角谷猜想\角谷猜想.csproj", "{03B3C650-BFDB-4FB4-A808-DF47F7A758B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "冒泡排序", "冒泡排序\冒泡排序.csproj", "{14E82929-3206-48D5-8B53-15FFD016E357}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "冒泡排序", "冒泡排序\冒泡排序.csproj", "{14E82929-3206-48D5-8B53-15FFD016E357}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XML", "XML\XML.csproj", "{97A304D9-2A21-437A-9F9B-DFF74350F8ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XML", "XML\XML.csproj", "{97A304D9-2A21-437A-9F9B-DFF74350F8ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "基础", "基础", "{EC681E60-CDDA-47DB-8A0B-1A2840C97DEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "字符串", "字符串\字符串.csproj", "{78F63C3A-6068-4CA0-BCF3-F5BF152E496D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,9 +91,16 @@ Global
 		{97A304D9-2A21-437A-9F9B-DFF74350F8ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97A304D9-2A21-437A-9F9B-DFF74350F8ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97A304D9-2A21-437A-9F9B-DFF74350F8ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78F63C3A-6068-4CA0-BCF3-F5BF152E496D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F63C3A-6068-4CA0-BCF3-F5BF152E496D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F63C3A-6068-4CA0-BCF3-F5BF152E496D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F63C3A-6068-4CA0-BCF3-F5BF152E496D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{78F63C3A-6068-4CA0-BCF3-F5BF152E496D} = {EC681E60-CDDA-47DB-8A0B-1A2840C97DEF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6857292-1ED6-4745-91C4-A810BA862DDD}

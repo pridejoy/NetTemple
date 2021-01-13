@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+vIvpPVms+AAFNH+ytblwniGJSfsRbhn8JaQVxFALSUTlSKZni6RmCJ/1ceCDm23kYrPiRzieUTJ4M1da2atzA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\1234\\source\\repos\\NetTemple\\字符串\\字符串.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\1234\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

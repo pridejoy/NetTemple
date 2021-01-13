@@ -1,0 +1,15 @@
+C:\Users\1234\source\repos\NetTemple\字符串\bin\Debug\netcoreapp3.1\字符串.exe
+C:\Users\1234\source\repos\NetTemple\字符串\bin\Debug\netcoreapp3.1\字符串.deps.json
+C:\Users\1234\source\repos\NetTemple\字符串\bin\Debug\netcoreapp3.1\字符串.runtimeconfig.json
+C:\Users\1234\source\repos\NetTemple\字符串\bin\Debug\netcoreapp3.1\字符串.runtimeconfig.dev.json
+C:\Users\1234\source\repos\NetTemple\字符串\bin\Debug\netcoreapp3.1\字符串.dll
+C:\Users\1234\source\repos\NetTemple\字符串\bin\Debug\netcoreapp3.1\字符串.pdb
+C:\Users\1234\source\repos\NetTemple\字符串\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\1234\source\repos\NetTemple\字符串\obj\Debug\netcoreapp3.1\字符串.csprojAssemblyReference.cache
+C:\Users\1234\source\repos\NetTemple\字符串\obj\Debug\netcoreapp3.1\字符串.AssemblyInfoInputs.cache
+C:\Users\1234\source\repos\NetTemple\字符串\obj\Debug\netcoreapp3.1\字符串.AssemblyInfo.cs
+C:\Users\1234\source\repos\NetTemple\字符串\obj\Debug\netcoreapp3.1\字符串.csproj.CoreCompileInputs.cache
+C:\Users\1234\source\repos\NetTemple\字符串\obj\Debug\netcoreapp3.1\字符串.csproj.CopyComplete
+C:\Users\1234\source\repos\NetTemple\字符串\obj\Debug\netcoreapp3.1\字符串.dll
+C:\Users\1234\source\repos\NetTemple\字符串\obj\Debug\netcoreapp3.1\字符串.pdb
+C:\Users\1234\source\repos\NetTemple\字符串\obj\Debug\netcoreapp3.1\字符串.genruntimeconfig.cache
