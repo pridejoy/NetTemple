@@ -1,0 +1,13 @@
+C:\Users\1234\source\repos\NetTemple\多维数组\bin\Debug\netcoreapp3.1\多维数组.exe
+C:\Users\1234\source\repos\NetTemple\多维数组\bin\Debug\netcoreapp3.1\多维数组.deps.json
+C:\Users\1234\source\repos\NetTemple\多维数组\bin\Debug\netcoreapp3.1\多维数组.runtimeconfig.json
+C:\Users\1234\source\repos\NetTemple\多维数组\bin\Debug\netcoreapp3.1\多维数组.runtimeconfig.dev.json
+C:\Users\1234\source\repos\NetTemple\多维数组\bin\Debug\netcoreapp3.1\多维数组.dll
+C:\Users\1234\source\repos\NetTemple\多维数组\bin\Debug\netcoreapp3.1\多维数组.pdb
+C:\Users\1234\source\repos\NetTemple\多维数组\obj\Debug\netcoreapp3.1\多维数组.csprojAssemblyReference.cache
+C:\Users\1234\source\repos\NetTemple\多维数组\obj\Debug\netcoreapp3.1\多维数组.AssemblyInfoInputs.cache
+C:\Users\1234\source\repos\NetTemple\多维数组\obj\Debug\netcoreapp3.1\多维数组.AssemblyInfo.cs
+C:\Users\1234\source\repos\NetTemple\多维数组\obj\Debug\netcoreapp3.1\多维数组.csproj.CoreCompileInputs.cache
+C:\Users\1234\source\repos\NetTemple\多维数组\obj\Debug\netcoreapp3.1\多维数组.dll
+C:\Users\1234\source\repos\NetTemple\多维数组\obj\Debug\netcoreapp3.1\多维数组.pdb
+C:\Users\1234\source\repos\NetTemple\多维数组\obj\Debug\netcoreapp3.1\多维数组.genruntimeconfig.cache
