@@ -35,7 +35,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "字符串", "字符串\字�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "多维数组", "多维数组\多维数组.csproj", "{D99B9E1A-CC9E-4ACD-8855-CE5E4B8ECBFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "继承和派生", "继承和派生\继承和派生.csproj", "{70CF73BB-E73C-4BFC-902D-EBA066218296}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "继承和派生", "继承和派生\继承和派生.csproj", "{70CF73BB-E73C-4BFC-902D-EBA066218296}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "抽象类抽象方法", "抽象类抽象方法\抽象类抽象方法.csproj", "{2C984FB5-8056-49FF-BDE3-916D7F426637}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "密封类或密封方法", "密封类或密封方法\密封类或密封方法.csproj", "{14353008-5679-40D3-A29B-5112397CE20E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "接口", "接口\接口.csproj", "{45073DCC-11E4-4788-BF93-3312390046D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -107,6 +113,18 @@ Global
 		{70CF73BB-E73C-4BFC-902D-EBA066218296}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70CF73BB-E73C-4BFC-902D-EBA066218296}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70CF73BB-E73C-4BFC-902D-EBA066218296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C984FB5-8056-49FF-BDE3-916D7F426637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C984FB5-8056-49FF-BDE3-916D7F426637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C984FB5-8056-49FF-BDE3-916D7F426637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C984FB5-8056-49FF-BDE3-916D7F426637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14353008-5679-40D3-A29B-5112397CE20E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14353008-5679-40D3-A29B-5112397CE20E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14353008-5679-40D3-A29B-5112397CE20E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14353008-5679-40D3-A29B-5112397CE20E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45073DCC-11E4-4788-BF93-3312390046D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45073DCC-11E4-4788-BF93-3312390046D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45073DCC-11E4-4788-BF93-3312390046D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45073DCC-11E4-4788-BF93-3312390046D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -115,6 +133,9 @@ Global
 		{78F63C3A-6068-4CA0-BCF3-F5BF152E496D} = {EC681E60-CDDA-47DB-8A0B-1A2840C97DEF}
 		{D99B9E1A-CC9E-4ACD-8855-CE5E4B8ECBFE} = {EC681E60-CDDA-47DB-8A0B-1A2840C97DEF}
 		{70CF73BB-E73C-4BFC-902D-EBA066218296} = {EC681E60-CDDA-47DB-8A0B-1A2840C97DEF}
+		{2C984FB5-8056-49FF-BDE3-916D7F426637} = {EC681E60-CDDA-47DB-8A0B-1A2840C97DEF}
+		{14353008-5679-40D3-A29B-5112397CE20E} = {EC681E60-CDDA-47DB-8A0B-1A2840C97DEF}
+		{45073DCC-11E4-4788-BF93-3312390046D4} = {EC681E60-CDDA-47DB-8A0B-1A2840C97DEF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6857292-1ED6-4745-91C4-A810BA862DDD}

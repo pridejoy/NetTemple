@@ -77,6 +77,12 @@ namespace 字符串
             //Conert.ToSingle()   转换为单精度浮点型(float)
 
 
+            Console.WriteLine("请输入一个字符串：");
+            string str2 = Console.ReadLine();
+            string[] condition = { "," };
+            string[] result = str2.Split(condition, StringSplitOptions.None);
+            Console.WriteLine("字符串中含有逗号的个数为：" + (result.Length - 1));
+
 
             Console.WriteLine("请输入一个邮箱");
             string email = Console.ReadLine();
