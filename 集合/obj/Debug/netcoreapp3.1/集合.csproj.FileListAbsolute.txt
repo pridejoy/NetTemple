@@ -1,0 +1,13 @@
+C:\Users\1234\source\repos\NetTemple\集合\bin\Debug\netcoreapp3.1\集合.exe
+C:\Users\1234\source\repos\NetTemple\集合\bin\Debug\netcoreapp3.1\集合.deps.json
+C:\Users\1234\source\repos\NetTemple\集合\bin\Debug\netcoreapp3.1\集合.runtimeconfig.json
+C:\Users\1234\source\repos\NetTemple\集合\bin\Debug\netcoreapp3.1\集合.runtimeconfig.dev.json
+C:\Users\1234\source\repos\NetTemple\集合\bin\Debug\netcoreapp3.1\集合.dll
+C:\Users\1234\source\repos\NetTemple\集合\bin\Debug\netcoreapp3.1\集合.pdb
+C:\Users\1234\source\repos\NetTemple\集合\obj\Debug\netcoreapp3.1\集合.csprojAssemblyReference.cache
+C:\Users\1234\source\repos\NetTemple\集合\obj\Debug\netcoreapp3.1\集合.AssemblyInfoInputs.cache
+C:\Users\1234\source\repos\NetTemple\集合\obj\Debug\netcoreapp3.1\集合.AssemblyInfo.cs
+C:\Users\1234\source\repos\NetTemple\集合\obj\Debug\netcoreapp3.1\集合.csproj.CoreCompileInputs.cache
+C:\Users\1234\source\repos\NetTemple\集合\obj\Debug\netcoreapp3.1\集合.dll
+C:\Users\1234\source\repos\NetTemple\集合\obj\Debug\netcoreapp3.1\集合.pdb
+C:\Users\1234\source\repos\NetTemple\集合\obj\Debug\netcoreapp3.1\集合.genruntimeconfig.cache

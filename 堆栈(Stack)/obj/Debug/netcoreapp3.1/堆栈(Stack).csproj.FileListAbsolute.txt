@@ -1,0 +1,12 @@
+C:\Users\1234\source\repos\NetTemple\堆栈(Stack)\bin\Debug\netcoreapp3.1\堆栈(Stack).exe
+C:\Users\1234\source\repos\NetTemple\堆栈(Stack)\bin\Debug\netcoreapp3.1\堆栈(Stack).deps.json
+C:\Users\1234\source\repos\NetTemple\堆栈(Stack)\bin\Debug\netcoreapp3.1\堆栈(Stack).runtimeconfig.json
+C:\Users\1234\source\repos\NetTemple\堆栈(Stack)\bin\Debug\netcoreapp3.1\堆栈(Stack).runtimeconfig.dev.json
+C:\Users\1234\source\repos\NetTemple\堆栈(Stack)\bin\Debug\netcoreapp3.1\堆栈(Stack).dll
+C:\Users\1234\source\repos\NetTemple\堆栈(Stack)\bin\Debug\netcoreapp3.1\堆栈(Stack).pdb
+C:\Users\1234\source\repos\NetTemple\堆栈(Stack)\obj\Debug\netcoreapp3.1\堆栈(Stack).AssemblyInfoInputs.cache
+C:\Users\1234\source\repos\NetTemple\堆栈(Stack)\obj\Debug\netcoreapp3.1\堆栈(Stack).AssemblyInfo.cs
+C:\Users\1234\source\repos\NetTemple\堆栈(Stack)\obj\Debug\netcoreapp3.1\堆栈(Stack).csproj.CoreCompileInputs.cache
+C:\Users\1234\source\repos\NetTemple\堆栈(Stack)\obj\Debug\netcoreapp3.1\堆栈(Stack).dll
+C:\Users\1234\source\repos\NetTemple\堆栈(Stack)\obj\Debug\netcoreapp3.1\堆栈(Stack).pdb
+C:\Users\1234\source\repos\NetTemple\堆栈(Stack)\obj\Debug\netcoreapp3.1\堆栈(Stack).genruntimeconfig.cache
