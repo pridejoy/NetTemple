@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "哈希表(Hashtable)/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/哈希表(Hashtable).dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/哈希表(Hashtable).dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "哈希表(Hashtable)/1.0.0": {
+      "type": "project",
+      "path": "../哈希表(Hashtable)/哈希表(Hashtable).csproj",
+      "msbuildProject": "../哈希表(Hashtable)/哈希表(Hashtable).csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "哈希表(Hashtable) >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\1234\\.nuget\\packages\\": {},
@@ -37,7 +56,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\1234\\source\\repos\\NetTemple\\哈希表(Hashtable)\\哈希表(Hashtable).csproj": {
+              "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\哈希表(Hashtable)\\哈希表(Hashtable).csproj"
+            }
+          }
         }
       },
       "warningProperties": {

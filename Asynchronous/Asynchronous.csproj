@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\有序列表(SortedList)\有序列表(SortedList).csproj" />
+  </ItemGroup>
+
 </Project>

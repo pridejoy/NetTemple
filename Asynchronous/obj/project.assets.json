@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "有序列表(SortedList)/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/有序列表(SortedList).dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/有序列表(SortedList).dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "有序列表(SortedList)/1.0.0": {
+      "type": "project",
+      "path": "../有序列表(SortedList)/有序列表(SortedList).csproj",
+      "msbuildProject": "../有序列表(SortedList)/有序列表(SortedList).csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "有序列表(SortedList) >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\1234\\.nuget\\packages\\": {},
@@ -37,7 +56,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\1234\\source\\repos\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj": {
+              "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj"
+            }
+          }
         }
       },
       "warningProperties": {

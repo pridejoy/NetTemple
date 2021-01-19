@@ -1,0 +1,13 @@
+C:\Users\1234\source\repos\NetTemple\文件操作\bin\Debug\netcoreapp3.1\文件操作.exe
+C:\Users\1234\source\repos\NetTemple\文件操作\bin\Debug\netcoreapp3.1\文件操作.deps.json
+C:\Users\1234\source\repos\NetTemple\文件操作\bin\Debug\netcoreapp3.1\文件操作.runtimeconfig.json
+C:\Users\1234\source\repos\NetTemple\文件操作\bin\Debug\netcoreapp3.1\文件操作.runtimeconfig.dev.json
+C:\Users\1234\source\repos\NetTemple\文件操作\bin\Debug\netcoreapp3.1\文件操作.dll
+C:\Users\1234\source\repos\NetTemple\文件操作\bin\Debug\netcoreapp3.1\文件操作.pdb
+C:\Users\1234\source\repos\NetTemple\文件操作\obj\Debug\netcoreapp3.1\文件操作.AssemblyInfoInputs.cache
+C:\Users\1234\source\repos\NetTemple\文件操作\obj\Debug\netcoreapp3.1\文件操作.AssemblyInfo.cs
+C:\Users\1234\source\repos\NetTemple\文件操作\obj\Debug\netcoreapp3.1\文件操作.csproj.CoreCompileInputs.cache
+C:\Users\1234\source\repos\NetTemple\文件操作\obj\Debug\netcoreapp3.1\文件操作.dll
+C:\Users\1234\source\repos\NetTemple\文件操作\obj\Debug\netcoreapp3.1\文件操作.pdb
+C:\Users\1234\source\repos\NetTemple\文件操作\obj\Debug\netcoreapp3.1\文件操作.genruntimeconfig.cache
+C:\Users\1234\source\repos\NetTemple\文件操作\obj\Debug\netcoreapp3.1\文件操作.csprojAssemblyReference.cache

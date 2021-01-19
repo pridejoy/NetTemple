@@ -6,4 +6,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\哈希表(Hashtable)\哈希表(Hashtable).csproj" />
+  </ItemGroup>
+
 </Project>
