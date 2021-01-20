@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\密封类或密封方法\\密封类或密封方法.csproj": {}
+    "C:\\Users\\1234\\source\\repos\\NetTemple\\密封类或密封方法\\密封类或密封方法.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\密封类或密封方法\\密封类或密封方法.csproj": {
+    "C:\\Users\\1234\\source\\repos\\NetTemple\\密封类或密封方法\\密封类或密封方法.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\密封类或密封方法\\密封类或密封方法.csproj",
+        "projectUniqueName": "C:\\Users\\1234\\source\\repos\\NetTemple\\密封类或密封方法\\密封类或密封方法.csproj",
         "projectName": "密封类或密封方法",
-        "projectPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\密封类或密封方法\\密封类或密封方法.csproj",
+        "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\密封类或密封方法\\密封类或密封方法.csproj",
         "packagesPath": "C:\\Users\\1234\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\密封类或密封方法\\obj\\",
+        "outputPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\密封类或密封方法\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

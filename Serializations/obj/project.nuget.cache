@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tX9dYz0J5HfCKcJsGaIEhyR0770LYrbVyggDfaKlwFn4VBk6r/JgSB65qVh88P/9F/eYRjcYC+oQaX4gMtrKlQ==",
+  "dgSpecHash": "4ROdGakv8+QFDu72KnGPvDQvt1S/1+UVqbVE4nVrscbSIkBS0uy8gIg+kmkIAwr2wt2wTHWLRJ/GrTNl0GHMRQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\Serializations\\Serializations.csproj",
+  "projectFilePath": "C:\\Users\\1234\\source\\repos\\NetTemple\\Serializations\\Serializations.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\1234\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\1234\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.0.4\\microsoft.dotnet.platformabstractions.2.0.4.nupkg.sha512",

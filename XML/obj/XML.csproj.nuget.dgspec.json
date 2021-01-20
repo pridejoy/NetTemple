@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\XML\\XML.csproj": {}
+    "C:\\Users\\1234\\source\\repos\\NetTemple\\XML\\XML.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\XML\\XML.csproj": {
+    "C:\\Users\\1234\\source\\repos\\NetTemple\\XML\\XML.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\XML\\XML.csproj",
+        "projectUniqueName": "C:\\Users\\1234\\source\\repos\\NetTemple\\XML\\XML.csproj",
         "projectName": "XML",
-        "projectPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\XML\\XML.csproj",
+        "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\XML\\XML.csproj",
         "packagesPath": "C:\\Users\\1234\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\XML\\obj\\",
+        "outputPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\XML\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

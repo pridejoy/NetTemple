@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\File\\Files.csproj",
+      "projectUniqueName": "C:\\Users\\1234\\source\\repos\\NetTemple\\File\\Files.csproj",
       "projectName": "Files",
-      "projectPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\File\\Files.csproj",
+      "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\File\\Files.csproj",
       "packagesPath": "C:\\Users\\1234\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\File\\obj\\",
+      "outputPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\File\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

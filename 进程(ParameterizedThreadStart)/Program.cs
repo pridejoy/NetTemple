@@ -26,10 +26,6 @@ namespace 进程_ParameterizedThreadStart_
             //ParameterTest pt = new ParameterTest(1, 10);
             //Thread t2 = new Thread(pts2);
             //t2.Start(pt);
-
-            Console.WriteLine("qwe");
-
-
             Console.WriteLine("ok");
         }
 

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\线程(ThreadStart)\\线程(ThreadStart).csproj",
+      "projectUniqueName": "C:\\Users\\1234\\source\\repos\\NetTemple\\线程(ThreadStart)\\线程(ThreadStart).csproj",
       "projectName": "线程(ThreadStart)",
-      "projectPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\线程(ThreadStart)\\线程(ThreadStart).csproj",
+      "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\线程(ThreadStart)\\线程(ThreadStart).csproj",
       "packagesPath": "C:\\Users\\1234\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\线程(ThreadStart)\\obj\\",
+      "outputPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\线程(ThreadStart)\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

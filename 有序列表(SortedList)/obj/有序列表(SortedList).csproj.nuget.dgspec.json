@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj": {}
+    "C:\\Users\\1234\\source\\repos\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj": {}
   },
   "projects": {
-    "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj": {
+    "C:\\Users\\1234\\source\\repos\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj",
+        "projectUniqueName": "C:\\Users\\1234\\source\\repos\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj",
         "projectName": "有序列表(SortedList)",
-        "projectPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj",
+        "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj",
         "packagesPath": "C:\\Users\\1234\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\有序列表(SortedList)\\obj\\",
+        "outputPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\有序列表(SortedList)\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

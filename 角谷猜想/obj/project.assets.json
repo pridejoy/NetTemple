@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\角谷猜想\\角谷猜想.csproj",
+      "projectUniqueName": "C:\\Users\\1234\\source\\repos\\NetTemple\\角谷猜想\\角谷猜想.csproj",
       "projectName": "角谷猜想",
-      "projectPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\角谷猜想\\角谷猜想.csproj",
+      "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\角谷猜想\\角谷猜想.csproj",
       "packagesPath": "C:\\Users\\1234\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\角谷猜想\\obj\\",
+      "outputPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\角谷猜想\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

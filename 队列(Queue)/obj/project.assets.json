@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\队列(Queue)\\队列(Queue).csproj",
+      "projectUniqueName": "C:\\Users\\1234\\source\\repos\\NetTemple\\队列(Queue)\\队列(Queue).csproj",
       "projectName": "队列(Queue)",
-      "projectPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\队列(Queue)\\队列(Queue).csproj",
+      "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\队列(Queue)\\队列(Queue).csproj",
       "packagesPath": "C:\\Users\\1234\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\队列(Queue)\\obj\\",
+      "outputPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\队列(Queue)\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
