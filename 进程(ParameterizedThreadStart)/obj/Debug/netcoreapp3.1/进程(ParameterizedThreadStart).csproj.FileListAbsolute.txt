@@ -1,0 +1,12 @@
+C:\Users\1234\source\repos\NetTemple\进程(ParameterizedThreadStart)\bin\Debug\netcoreapp3.1\进程(ParameterizedThreadStart).exe
+C:\Users\1234\source\repos\NetTemple\进程(ParameterizedThreadStart)\bin\Debug\netcoreapp3.1\进程(ParameterizedThreadStart).deps.json
+C:\Users\1234\source\repos\NetTemple\进程(ParameterizedThreadStart)\bin\Debug\netcoreapp3.1\进程(ParameterizedThreadStart).runtimeconfig.json
+C:\Users\1234\source\repos\NetTemple\进程(ParameterizedThreadStart)\bin\Debug\netcoreapp3.1\进程(ParameterizedThreadStart).runtimeconfig.dev.json
+C:\Users\1234\source\repos\NetTemple\进程(ParameterizedThreadStart)\bin\Debug\netcoreapp3.1\进程(ParameterizedThreadStart).dll
+C:\Users\1234\source\repos\NetTemple\进程(ParameterizedThreadStart)\bin\Debug\netcoreapp3.1\进程(ParameterizedThreadStart).pdb
+C:\Users\1234\source\repos\NetTemple\进程(ParameterizedThreadStart)\obj\Debug\netcoreapp3.1\进程(ParameterizedThreadStart).AssemblyInfoInputs.cache
+C:\Users\1234\source\repos\NetTemple\进程(ParameterizedThreadStart)\obj\Debug\netcoreapp3.1\进程(ParameterizedThreadStart).AssemblyInfo.cs
+C:\Users\1234\source\repos\NetTemple\进程(ParameterizedThreadStart)\obj\Debug\netcoreapp3.1\进程(ParameterizedThreadStart).csproj.CoreCompileInputs.cache
+C:\Users\1234\source\repos\NetTemple\进程(ParameterizedThreadStart)\obj\Debug\netcoreapp3.1\进程(ParameterizedThreadStart).dll
+C:\Users\1234\source\repos\NetTemple\进程(ParameterizedThreadStart)\obj\Debug\netcoreapp3.1\进程(ParameterizedThreadStart).pdb
+C:\Users\1234\source\repos\NetTemple\进程(ParameterizedThreadStart)\obj\Debug\netcoreapp3.1\进程(ParameterizedThreadStart).genruntimeconfig.cache

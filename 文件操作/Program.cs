@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Text;
 
 namespace 文件操作
 {
@@ -382,6 +383,24 @@ namespace 文件操作
             //FileStream(string path, FileMode mode, FileAccess access)   使用指定路径的文件、文件打开模式、文件访问模式创建 FileStream 类的实例
             //FileStream(string path, FileMode mode, FileAccess access, FileShare share)  使用指定的路径、创建模式、读写权限和共享权限创建 FileStream 类的一个新实例
             //FileStream(string path, FileMode mode, FileAccess access, FileShare share, int bufferSize, FileOptions options) 使用指定的路径、创建模式、读写权限和共享权限、其他 文件选项创建 FileStream 类的实例
+
+
+            //【实例 1】在 D 盘 code 文件夹的 student.txt 文件中写入学生的学号信息。
+
+            //定义文件路径
+            string path4 = @"D:\\code\\student.txt";
+            //创建 FileStream 类的实例
+            FileStream fileStream = new FileStream(path4, FileMode.OpenOrCreate, FileAccess.ReadWrite, FileShare.ReadWrite);
+            //定义学号
+            string msg = "1710026";
+            //将字符串转换为字节数组
+            byte[] bytes = Encoding.UTF8.GetBytes(msg);
+            //向文件中写入字节数组
+            fileStream.Write(bytes, 0, bytes.Length);
+            //刷新缓冲区
+            fileStream.Flush();
+            //关闭流
+            fileStream.Close();
 
 
 
