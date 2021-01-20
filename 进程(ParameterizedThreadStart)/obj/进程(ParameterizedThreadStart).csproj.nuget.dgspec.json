@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1234\\source\\repos\\NetTemple\\进程(ParameterizedThreadStart)\\进程(ParameterizedThreadStart).csproj": {}
+    "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\进程(ParameterizedThreadStart)\\进程(ParameterizedThreadStart).csproj": {}
   },
   "projects": {
-    "C:\\Users\\1234\\source\\repos\\NetTemple\\进程(ParameterizedThreadStart)\\进程(ParameterizedThreadStart).csproj": {
+    "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\进程(ParameterizedThreadStart)\\进程(ParameterizedThreadStart).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1234\\source\\repos\\NetTemple\\进程(ParameterizedThreadStart)\\进程(ParameterizedThreadStart).csproj",
+        "projectUniqueName": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\进程(ParameterizedThreadStart)\\进程(ParameterizedThreadStart).csproj",
         "projectName": "进程(ParameterizedThreadStart)",
-        "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\进程(ParameterizedThreadStart)\\进程(ParameterizedThreadStart).csproj",
+        "projectPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\进程(ParameterizedThreadStart)\\进程(ParameterizedThreadStart).csproj",
         "packagesPath": "C:\\Users\\1234\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\进程(ParameterizedThreadStart)\\obj\\",
+        "outputPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\进程(ParameterizedThreadStart)\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

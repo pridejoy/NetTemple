@@ -27,6 +27,8 @@ namespace 进程_ParameterizedThreadStart_
             //Thread t2 = new Thread(pts2);
             //t2.Start(pt);
 
+            Console.WriteLine("qwe");
+
 
             Console.WriteLine("ok");
         }

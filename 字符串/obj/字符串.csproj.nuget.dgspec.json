@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1234\\source\\repos\\NetTemple\\字符串\\字符串.csproj": {}
+    "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\字符串\\字符串.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1234\\source\\repos\\NetTemple\\字符串\\字符串.csproj": {
+    "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\字符串\\字符串.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1234\\source\\repos\\NetTemple\\字符串\\字符串.csproj",
+        "projectUniqueName": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\字符串\\字符串.csproj",
         "projectName": "字符串",
-        "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\字符串\\字符串.csproj",
+        "projectPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\字符串\\字符串.csproj",
         "packagesPath": "C:\\Users\\1234\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\字符串\\obj\\",
+        "outputPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\字符串\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

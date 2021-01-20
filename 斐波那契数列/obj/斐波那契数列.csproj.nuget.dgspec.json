@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1234\\source\\repos\\NetTemple\\斐波那契数列\\斐波那契数列.csproj": {}
+    "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\斐波那契数列\\斐波那契数列.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1234\\source\\repos\\NetTemple\\斐波那契数列\\斐波那契数列.csproj": {
+    "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\斐波那契数列\\斐波那契数列.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1234\\source\\repos\\NetTemple\\斐波那契数列\\斐波那契数列.csproj",
+        "projectUniqueName": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\斐波那契数列\\斐波那契数列.csproj",
         "projectName": "斐波那契数列",
-        "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\斐波那契数列\\斐波那契数列.csproj",
+        "projectPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\斐波那契数列\\斐波那契数列.csproj",
         "packagesPath": "C:\\Users\\1234\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\斐波那契数列\\obj\\",
+        "outputPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\斐波那契数列\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1234\\source\\repos\\NetTemple\\泛型\\泛型.csproj": {}
+    "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\泛型\\泛型.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1234\\source\\repos\\NetTemple\\泛型\\泛型.csproj": {
+    "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\泛型\\泛型.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1234\\source\\repos\\NetTemple\\泛型\\泛型.csproj",
+        "projectUniqueName": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\泛型\\泛型.csproj",
         "projectName": "泛型",
-        "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\泛型\\泛型.csproj",
+        "projectPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\泛型\\泛型.csproj",
         "packagesPath": "C:\\Users\\1234\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\泛型\\obj\\",
+        "outputPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\泛型\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

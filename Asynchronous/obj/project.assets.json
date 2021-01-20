@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1234\\source\\repos\\NetTemple\\Asynchronous\\Asynchronous.csproj",
+      "projectUniqueName": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\Asynchronous\\Asynchronous.csproj",
       "projectName": "Asynchronous",
-      "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\Asynchronous\\Asynchronous.csproj",
+      "projectPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\Asynchronous\\Asynchronous.csproj",
       "packagesPath": "C:\\Users\\1234\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\Asynchronous\\obj\\",
+      "outputPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\Asynchronous\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -57,8 +57,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\1234\\source\\repos\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj": {
-              "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj"
+            "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj": {
+              "projectPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj"
             }
           }
         }

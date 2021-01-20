@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1234\\source\\repos\\NetTemple\\ToDictionarys\\ToDictionarys.csproj",
+      "projectUniqueName": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\ToDictionarys\\ToDictionarys.csproj",
       "projectName": "ToDictionarys",
-      "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\ToDictionarys\\ToDictionarys.csproj",
+      "projectPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\ToDictionarys\\ToDictionarys.csproj",
       "packagesPath": "C:\\Users\\1234\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\ToDictionarys\\obj\\",
+      "outputPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\ToDictionarys\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

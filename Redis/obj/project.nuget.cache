@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KnevIVtxkYOj/eVCvMXzoMWn6N5hCYTq4UHas5BZ9LuK6Xye4PbrGbVcQaHSZ+Xgm9gT7l/4LJUDZ17xmgaUTQ==",
+  "dgSpecHash": "qeLKaJsWhTXRGcYEamXM72D57pUOBUqftxsUJcuy3Yvko1lW6Aa90H3wW61NHVe1i0KMjUf1ZquXZEMKKf7PTw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\1234\\source\\repos\\NetTemple\\Redis\\Redis.csproj",
+  "projectFilePath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\Redis\\Redis.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\1234\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\1234\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

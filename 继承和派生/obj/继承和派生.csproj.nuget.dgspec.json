@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1234\\source\\repos\\NetTemple\\继承和派生\\继承和派生.csproj": {}
+    "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\继承和派生\\继承和派生.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1234\\source\\repos\\NetTemple\\继承和派生\\继承和派生.csproj": {
+    "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\继承和派生\\继承和派生.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1234\\source\\repos\\NetTemple\\继承和派生\\继承和派生.csproj",
+        "projectUniqueName": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\继承和派生\\继承和派生.csproj",
         "projectName": "继承和派生",
-        "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\继承和派生\\继承和派生.csproj",
+        "projectPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\继承和派生\\继承和派生.csproj",
         "packagesPath": "C:\\Users\\1234\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\继承和派生\\obj\\",
+        "outputPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\继承和派生\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

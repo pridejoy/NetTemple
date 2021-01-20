@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1234\\source\\repos\\NetTemple\\Delegates\\Delegates.csproj",
+      "projectUniqueName": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\Delegates\\Delegates.csproj",
       "projectName": "Delegates",
-      "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\Delegates\\Delegates.csproj",
+      "projectPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\Delegates\\Delegates.csproj",
       "packagesPath": "C:\\Users\\1234\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\Delegates\\obj\\",
+      "outputPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\Delegates\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -57,8 +57,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\1234\\source\\repos\\NetTemple\\哈希表(Hashtable)\\哈希表(Hashtable).csproj": {
-              "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\哈希表(Hashtable)\\哈希表(Hashtable).csproj"
+            "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\哈希表(Hashtable)\\哈希表(Hashtable).csproj": {
+              "projectPath": "C:\\Users\\1234\\Source\\Repos\\PrideJoy\\NetTemple\\哈希表(Hashtable)\\哈希表(Hashtable).csproj"
             }
           }
         }
