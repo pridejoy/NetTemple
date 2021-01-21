@@ -61,9 +61,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "进程和线程", "进程�
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "文件", "文件", "{433B7760-F989-44D1-9A32-3006D0B8BBC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "线程(ThreadStart)", "线程(ThreadStart)\线程(ThreadStart).csproj", "{B97276A2-0C23-49E0-B259-6CBB8F85A92E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "线程(ThreadStart)", "线程(ThreadStart)\线程(ThreadStart).csproj", "{B97276A2-0C23-49E0-B259-6CBB8F85A92E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "进程(ParameterizedThreadStart)", "进程(ParameterizedThreadStart)\进程(ParameterizedThreadStart).csproj", "{394613DD-6184-4BE7-BA5C-0B7E415991FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "进程(ParameterizedThreadStart)", "进程(ParameterizedThreadStart)\进程(ParameterizedThreadStart).csproj", "{394613DD-6184-4BE7-BA5C-0B7E415991FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "表达式树", "表达式树\表达式树.csproj", "{EB7EAF10-3BAE-4D1C-8214-1723A34960A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +185,10 @@ Global
 		{394613DD-6184-4BE7-BA5C-0B7E415991FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{394613DD-6184-4BE7-BA5C-0B7E415991FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{394613DD-6184-4BE7-BA5C-0B7E415991FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB7EAF10-3BAE-4D1C-8214-1723A34960A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB7EAF10-3BAE-4D1C-8214-1723A34960A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB7EAF10-3BAE-4D1C-8214-1723A34960A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB7EAF10-3BAE-4D1C-8214-1723A34960A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
