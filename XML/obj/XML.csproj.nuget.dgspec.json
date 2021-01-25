@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1234\\source\\repos\\NetTemple\\XML\\XML.csproj": {}
+    "D:\\Pride\\NetTemple\\XML\\XML.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1234\\source\\repos\\NetTemple\\XML\\XML.csproj": {
+    "D:\\Pride\\NetTemple\\XML\\XML.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1234\\source\\repos\\NetTemple\\XML\\XML.csproj",
+        "projectUniqueName": "D:\\Pride\\NetTemple\\XML\\XML.csproj",
         "projectName": "XML",
-        "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\XML\\XML.csproj",
-        "packagesPath": "C:\\Users\\1234\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\XML\\obj\\",
+        "projectPath": "D:\\Pride\\NetTemple\\XML\\XML.csproj",
+        "packagesPath": "C:\\Users\\Pride\\.nuget\\packages\\",
+        "outputPath": "D:\\Pride\\NetTemple\\XML\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\1234\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pride\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

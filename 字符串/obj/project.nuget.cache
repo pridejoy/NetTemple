@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QnaSIiOhpiRC4S3MvtGuhX9I/fi8941xdX3vmgGXslJ+iQwyLjTRZd+PGaukDJWVd/Zy4l/6EEk2Z3/7VOFLmw==",
+  "dgSpecHash": "Fml5lFaPcUkENQifOO6hXDYwY47tt6BpksG6fZ3TRhgvnU6+V1nsQxF/2Z9Bz1tElj0DOZVTecGGHpXlYhhY9w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\1234\\source\\repos\\NetTemple\\字符串\\字符串.csproj",
+  "projectFilePath": "D:\\Pride\\NetTemple\\字符串\\字符串.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\1234\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\Pride\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }

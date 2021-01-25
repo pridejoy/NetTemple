@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1234\\source\\repos\\NetTemple\\Asynchronous\\Asynchronous.csproj": {}
+    "D:\\Pride\\NetTemple\\Asynchronous\\Asynchronous.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1234\\source\\repos\\NetTemple\\Asynchronous\\Asynchronous.csproj": {
+    "D:\\Pride\\NetTemple\\Asynchronous\\Asynchronous.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1234\\source\\repos\\NetTemple\\Asynchronous\\Asynchronous.csproj",
+        "projectUniqueName": "D:\\Pride\\NetTemple\\Asynchronous\\Asynchronous.csproj",
         "projectName": "Asynchronous",
-        "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\Asynchronous\\Asynchronous.csproj",
-        "packagesPath": "C:\\Users\\1234\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\Asynchronous\\obj\\",
+        "projectPath": "D:\\Pride\\NetTemple\\Asynchronous\\Asynchronous.csproj",
+        "packagesPath": "C:\\Users\\Pride\\.nuget\\packages\\",
+        "outputPath": "D:\\Pride\\NetTemple\\Asynchronous\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\1234\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pride\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\1234\\source\\repos\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj": {
-                "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj"
+              "D:\\Pride\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj": {
+                "projectPath": "D:\\Pride\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj"
               }
             }
           }
@@ -65,20 +62,17 @@
         }
       }
     },
-    "C:\\Users\\1234\\source\\repos\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj": {
+    "D:\\Pride\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1234\\source\\repos\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj",
+        "projectUniqueName": "D:\\Pride\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj",
         "projectName": "有序列表(SortedList)",
-        "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj",
-        "packagesPath": "C:\\Users\\1234\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\有序列表(SortedList)\\obj\\",
+        "projectPath": "D:\\Pride\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj",
+        "packagesPath": "C:\\Users\\Pride\\.nuget\\packages\\",
+        "outputPath": "D:\\Pride\\NetTemple\\有序列表(SortedList)\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\1234\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pride\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

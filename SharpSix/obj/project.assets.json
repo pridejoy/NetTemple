@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\1234\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Pride\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1234\\source\\repos\\NetTemple\\SharpSix\\SharpSix.csproj",
+      "projectUniqueName": "D:\\Pride\\NetTemple\\SharpSix\\SharpSix.csproj",
       "projectName": "SharpSix",
-      "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\SharpSix\\SharpSix.csproj",
-      "packagesPath": "C:\\Users\\1234\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\SharpSix\\obj\\",
+      "projectPath": "D:\\Pride\\NetTemple\\SharpSix\\SharpSix.csproj",
+      "packagesPath": "C:\\Users\\Pride\\.nuget\\packages\\",
+      "outputPath": "D:\\Pride\\NetTemple\\SharpSix\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\1234\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Pride\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

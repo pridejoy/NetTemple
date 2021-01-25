@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1234\\source\\repos\\NetTemple\\Redis\\Redis.csproj": {}
+    "D:\\Pride\\NetTemple\\Redis\\Redis.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1234\\source\\repos\\NetTemple\\Redis\\Redis.csproj": {
+    "D:\\Pride\\NetTemple\\Redis\\Redis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1234\\source\\repos\\NetTemple\\Redis\\Redis.csproj",
+        "projectUniqueName": "D:\\Pride\\NetTemple\\Redis\\Redis.csproj",
         "projectName": "Redis",
-        "projectPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\Redis\\Redis.csproj",
-        "packagesPath": "C:\\Users\\1234\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1234\\source\\repos\\NetTemple\\Redis\\obj\\",
+        "projectPath": "D:\\Pride\\NetTemple\\Redis\\Redis.csproj",
+        "packagesPath": "C:\\Users\\Pride\\.nuget\\packages\\",
+        "outputPath": "D:\\Pride\\NetTemple\\Redis\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\1234\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pride\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
