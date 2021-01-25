@@ -7,6 +7,7 @@ namespace 线程_ThreadStart_
     {
         static void Main(string[] args)
         {
+             
             // 在 C# 中使用线程时首先需要创建线程，在使用 Thread 类的构造方法创建其实例时，需要用到 ThreadStart 委托或者 ParameterizedThreadStart 委托创建 Thread 类的实例。
             //ThreadStart 委托只能用于无返回值、无参数的方法，ParameterizedThreadStart 委托则可以用于带参数的方法。
 

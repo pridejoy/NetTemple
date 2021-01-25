@@ -89,6 +89,7 @@ StyleCopReport.xml
 *.pidb
 *.svclog
 *.scc
+*.cache
 
 # Chutzpah Test files
 _Chutzpah*
@@ -222,6 +223,7 @@ ClientBin/
 *.dbmdl
 *.dbproj.schemaview
 *.jfm
+*.cache
 *.pfx
 *.publishsettings
 orleans.codegen.cs
@@ -251,9 +253,11 @@ ServiceFabricBackup/
 *.mdf
 *.ldf
 *.ndf
+*.cache
 
 # Business Intelligence projects
 *.rdl.data
+*.cache
 *.bim.layout
 *.bim_*.settings
 *.rptproj.rsuser
