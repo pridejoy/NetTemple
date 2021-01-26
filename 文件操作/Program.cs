@@ -9,6 +9,9 @@ namespace 文件操作
     {
         static void Main(string[] args)
         {
+
+
+
             #region Driveinfo：获取计算机驱动器信息
 
             //查看计算机驱动器信息主要包括查看磁盘的空间、磁盘的文件格式、磁盘的卷标等，在 C# 语言中这些操作可以通过 Driveinfo 类来实现。

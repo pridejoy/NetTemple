@@ -65,7 +65,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "线程(ThreadStart)", "线�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "进程(ParameterizedThreadStart)", "进程(ParameterizedThreadStart)\进程(ParameterizedThreadStart).csproj", "{394613DD-6184-4BE7-BA5C-0B7E415991FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "表达式树", "表达式树\表达式树.csproj", "{EB7EAF10-3BAE-4D1C-8214-1723A34960A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "表达式树", "表达式树\表达式树.csproj", "{EB7EAF10-3BAE-4D1C-8214-1723A34960A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RabbitMQ", "RabbitMQ", "{7A5D00B1-132E-4697-87FC-3CE337443493}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageProducer", "MessageProducer\MessageProducer.csproj", "{687A96FB-68E0-444B-B785-306C607498C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageRecipient", "MessageRecipient\MessageRecipient.csproj", "{3BC8A4D8-4332-4B56-956F-85A88196DCDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -189,6 +195,14 @@ Global
 		{EB7EAF10-3BAE-4D1C-8214-1723A34960A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB7EAF10-3BAE-4D1C-8214-1723A34960A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB7EAF10-3BAE-4D1C-8214-1723A34960A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{687A96FB-68E0-444B-B785-306C607498C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{687A96FB-68E0-444B-B785-306C607498C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{687A96FB-68E0-444B-B785-306C607498C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{687A96FB-68E0-444B-B785-306C607498C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BC8A4D8-4332-4B56-956F-85A88196DCDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BC8A4D8-4332-4B56-956F-85A88196DCDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BC8A4D8-4332-4B56-956F-85A88196DCDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BC8A4D8-4332-4B56-956F-85A88196DCDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -211,6 +225,8 @@ Global
 		{433B7760-F989-44D1-9A32-3006D0B8BBC4} = {EC681E60-CDDA-47DB-8A0B-1A2840C97DEF}
 		{B97276A2-0C23-49E0-B259-6CBB8F85A92E} = {CF1E66EC-7E75-48F2-B01A-8BAD38FADA8E}
 		{394613DD-6184-4BE7-BA5C-0B7E415991FA} = {CF1E66EC-7E75-48F2-B01A-8BAD38FADA8E}
+		{687A96FB-68E0-444B-B785-306C607498C6} = {7A5D00B1-132E-4697-87FC-3CE337443493}
+		{3BC8A4D8-4332-4B56-956F-85A88196DCDA} = {7A5D00B1-132E-4697-87FC-3CE337443493}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6857292-1ED6-4745-91C4-A810BA862DDD}
