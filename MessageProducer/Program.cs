@@ -30,12 +30,6 @@ namespace MessageProducer
 
             Console.WriteLine("\nRabbitMQ连接成功，请输入消息，输入exit退出！");
             string msg;
-            for (int i = 0; i < 1000000000000000; i++)
-            {
-                var sendbytes = Encoding.UTF8.GetBytes(i.ToString());
-                Console.WriteLine($"发送消息:{i}");
-                channel.BasicPublish("", "Wathet.Park.PV", null, sendbytes);
-            }
             do
             {
                 msg = Console.ReadLine();
