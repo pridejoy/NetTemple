@@ -16,9 +16,9 @@ namespace MessageProducer
             //创建连接工厂
             ConnectionFactory factory = new ConnectionFactory
             {
-                UserName = "wathet",
-                Password = "wathet2018",
-                HostName = "106.14.150.184"
+                UserName = "guest",
+                Password = "guest",
+                HostName = "localhost"
             };
             //创建连接
             var connection = factory.CreateConnection();
