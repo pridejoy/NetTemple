@@ -27,7 +27,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Pride\\.nuget\\packages\\": {}
+    "C:\\Users\\Pride\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -38,6 +39,9 @@
       "packagesPath": "C:\\Users\\Pride\\.nuget\\packages\\",
       "outputPath": "D:\\Pride\\NetTemple\\Delegates\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\Pride\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
