@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Delegates/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "哈希表(Hashtable)": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Delegates.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Delegates.dll": {}
+        }
+      },
+      "哈希表(Hashtable)/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/哈希表(Hashtable).dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/哈希表(Hashtable).dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Delegates/1.0.0": {
+      "type": "project",
+      "path": "../Delegates/Delegates.csproj",
+      "msbuildProject": "../Delegates/Delegates.csproj"
+    },
+    "哈希表(Hashtable)/1.0.0": {
+      "type": "project",
+      "path": "../哈希表(Hashtable)/哈希表(Hashtable).csproj",
+      "msbuildProject": "../哈希表(Hashtable)/哈希表(Hashtable).csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Delegates >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Pride\\.nuget\\packages\\": {},
@@ -37,7 +74,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Pride\\NetTemple\\Delegates\\Delegates.csproj": {
+              "projectPath": "D:\\Pride\\NetTemple\\Delegates\\Delegates.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

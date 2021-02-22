@@ -6,6 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Delegates\Delegates.csproj" />
+    <ProjectReference Include="..\Interface\Interface.csproj" />
+    <ProjectReference Include="..\Serializations\Serializations.csproj" />
     <ProjectReference Include="..\有序列表(SortedList)\有序列表(SortedList).csproj" />
   </ItemGroup>
 

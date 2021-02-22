@@ -6,4 +6,10 @@
     <RootNamespace>有序列表_SortedList_</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Delegates\Delegates.csproj" />
+    <ProjectReference Include="..\Interface\Interface.csproj" />
+    <ProjectReference Include="..\Redis\Redis.csproj" />
+  </ItemGroup>
+
 </Project>
