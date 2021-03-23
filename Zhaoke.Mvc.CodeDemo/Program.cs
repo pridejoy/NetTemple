@@ -17,7 +17,10 @@ namespace Zhaoke.Mvc.CodeDemo
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
+            Host.CreateDefaultBuilder(args).ConfigureLogging(LogingBuild=> {
+                //告诉系统使用log4
+                LogingBuild.AddLog4Net();
+            })
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();

@@ -79,11 +79,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebAppli
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "异步", "异步\异步.csproj", "{AF57D4AE-F90A-411C-846E-3BDCF4774881}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhaoke.CodeDemo", "Zhaoke.CodeDemo\Zhaoke.CodeDemo.csproj", "{84AE6ACC-FBF5-4746-BDBB-64D7E24E1432}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zhaoke.CodeDemo", "Zhaoke.CodeDemo\Zhaoke.CodeDemo.csproj", "{84AE6ACC-FBF5-4746-BDBB-64D7E24E1432}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhaoke.Framework.CodeDemo", "Zhaoke.Framework.CodeDemo\Zhaoke.Framework.CodeDemo.csproj", "{84B62ECA-DBCD-4BD6-BD22-4BFDA42BC3B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhaoke.Mvc.CodeDemo", "Zhaoke.Mvc.CodeDemo\Zhaoke.Mvc.CodeDemo.csproj", "{7DB2183C-D710-4E90-8901-BA97FBAC9D13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zhaoke.Mvc.CodeDemo", "Zhaoke.Mvc.CodeDemo\Zhaoke.Mvc.CodeDemo.csproj", "{7DB2183C-D710-4E90-8901-BA97FBAC9D13}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "各个语句", "各个语句\各个语句.csproj", "{ECCD8760-BE67-437B-A90D-9C17598304EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "构造函数", "构造函数\构造函数.csproj", "{30F7F8BB-627B-4866-B073-8B80802CE460}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -235,6 +239,14 @@ Global
 		{7DB2183C-D710-4E90-8901-BA97FBAC9D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DB2183C-D710-4E90-8901-BA97FBAC9D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DB2183C-D710-4E90-8901-BA97FBAC9D13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECCD8760-BE67-437B-A90D-9C17598304EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECCD8760-BE67-437B-A90D-9C17598304EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECCD8760-BE67-437B-A90D-9C17598304EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECCD8760-BE67-437B-A90D-9C17598304EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30F7F8BB-627B-4866-B073-8B80802CE460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F7F8BB-627B-4866-B073-8B80802CE460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30F7F8BB-627B-4866-B073-8B80802CE460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F7F8BB-627B-4866-B073-8B80802CE460}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -274,6 +286,8 @@ Global
 		{84AE6ACC-FBF5-4746-BDBB-64D7E24E1432} = {9644CBFD-A7CD-4EC2-97B3-B68DF4B48F3A}
 		{84B62ECA-DBCD-4BD6-BD22-4BFDA42BC3B6} = {9644CBFD-A7CD-4EC2-97B3-B68DF4B48F3A}
 		{7DB2183C-D710-4E90-8901-BA97FBAC9D13} = {9644CBFD-A7CD-4EC2-97B3-B68DF4B48F3A}
+		{ECCD8760-BE67-437B-A90D-9C17598304EA} = {EC681E60-CDDA-47DB-8A0B-1A2840C97DEF}
+		{30F7F8BB-627B-4866-B073-8B80802CE460} = {EC681E60-CDDA-47DB-8A0B-1A2840C97DEF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6857292-1ED6-4745-91C4-A810BA862DDD}

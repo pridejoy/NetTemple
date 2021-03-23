@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,22 @@ namespace Zhaoke.Mvc.CodeDemo.Controllers
 {
     public class FirstController : Controller
     {
+
+        #region
+        private readonly ILogger<HomeController> _logger;
+
+        public FirstController(ILogger<HomeController> logger)
+        {
+            Console.WriteLine("this is log");
+            _logger = logger;
+
+            logger.LogError("tihs is bug");
+            logger.LogInformation("this is a loginfo");
+        }
+
+        #endregion
+
+
 
         /// <summary>
         /// 
