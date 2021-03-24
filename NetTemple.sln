@@ -87,7 +87,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zhaoke.Mvc.CodeDemo", "Zhao
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "各个语句", "各个语句\各个语句.csproj", "{ECCD8760-BE67-437B-A90D-9C17598304EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "构造函数", "构造函数\构造函数.csproj", "{30F7F8BB-627B-4866-B073-8B80802CE460}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "构造函数", "构造函数\构造函数.csproj", "{30F7F8BB-627B-4866-B073-8B80802CE460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "二叉树", "二叉树\二叉树.csproj", "{020FA63B-C739-4803-B3B0-2FD781EE4D06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -247,6 +249,10 @@ Global
 		{30F7F8BB-627B-4866-B073-8B80802CE460}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30F7F8BB-627B-4866-B073-8B80802CE460}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30F7F8BB-627B-4866-B073-8B80802CE460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{020FA63B-C739-4803-B3B0-2FD781EE4D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{020FA63B-C739-4803-B3B0-2FD781EE4D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{020FA63B-C739-4803-B3B0-2FD781EE4D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{020FA63B-C739-4803-B3B0-2FD781EE4D06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
