@@ -89,7 +89,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "各个语句", "各个语�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "构造函数", "构造函数\构造函数.csproj", "{30F7F8BB-627B-4866-B073-8B80802CE460}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "二叉树", "二叉树\二叉树.csproj", "{020FA63B-C739-4803-B3B0-2FD781EE4D06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "二叉树", "二叉树\二叉树.csproj", "{020FA63B-C739-4803-B3B0-2FD781EE4D06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "算法", "算法", "{FAA6AD48-A871-4704-9248-98771DB7BD4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leetcode", "leetcode\leetcode.csproj", "{FA5CCA04-B307-4280-B456-1799CF684EEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -253,6 +257,10 @@ Global
 		{020FA63B-C739-4803-B3B0-2FD781EE4D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{020FA63B-C739-4803-B3B0-2FD781EE4D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{020FA63B-C739-4803-B3B0-2FD781EE4D06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA5CCA04-B307-4280-B456-1799CF684EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA5CCA04-B307-4280-B456-1799CF684EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA5CCA04-B307-4280-B456-1799CF684EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA5CCA04-B307-4280-B456-1799CF684EEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -294,6 +302,7 @@ Global
 		{7DB2183C-D710-4E90-8901-BA97FBAC9D13} = {9644CBFD-A7CD-4EC2-97B3-B68DF4B48F3A}
 		{ECCD8760-BE67-437B-A90D-9C17598304EA} = {EC681E60-CDDA-47DB-8A0B-1A2840C97DEF}
 		{30F7F8BB-627B-4866-B073-8B80802CE460} = {EC681E60-CDDA-47DB-8A0B-1A2840C97DEF}
+		{FA5CCA04-B307-4280-B456-1799CF684EEB} = {FAA6AD48-A871-4704-9248-98771DB7BD4B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6857292-1ED6-4745-91C4-A810BA862DDD}
