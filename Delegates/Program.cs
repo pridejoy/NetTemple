@@ -72,10 +72,14 @@ namespace Delegates
             //调用没有返回值的 方法委托类型
             //Action ac = Program.Demo;
             //ac();
+
             ////返回的参数
+            //第一个是形参，第二个是返回参数
             //Action<int,int> ac2 = Program.Demo2;
             //ac2(4, 5);
 
+
+            //第一个是形参，第二个是返回参数
             //Func<int, string> fu = Program.Demo4;
             //Console.WriteLine(fu(6));
 
@@ -101,12 +105,6 @@ namespace Delegates
                 if (age <= 0) return ;
                 estu.Age = age;
             }
-
-            //do
-            //{
-            //    var age = Console.Read();
-
-            //} while (b);
 
 
             Console.WriteLine("Hello World!");

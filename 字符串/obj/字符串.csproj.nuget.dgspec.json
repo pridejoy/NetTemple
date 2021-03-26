@@ -31,14 +31,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Pride\\NetTemple\\Delegates\\Delegates.csproj": {
-                "projectPath": "D:\\Pride\\NetTemple\\Delegates\\Delegates.csproj"
+              "D:\\Pride\\NetTemple\\Delegates\\委托和事件（delegateAndEvent）.csproj": {
+                "projectPath": "D:\\Pride\\NetTemple\\Delegates\\委托和事件（delegateAndEvent）.csproj"
               },
-              "D:\\Pride\\NetTemple\\Interface\\Interface.csproj": {
-                "projectPath": "D:\\Pride\\NetTemple\\Interface\\Interface.csproj"
+              "D:\\Pride\\NetTemple\\Interface\\接口（Interface）.csproj": {
+                "projectPath": "D:\\Pride\\NetTemple\\Interface\\接口（Interface）.csproj"
               },
-              "D:\\Pride\\NetTemple\\Serializations\\Serializations.csproj": {
-                "projectPath": "D:\\Pride\\NetTemple\\Serializations\\Serializations.csproj"
+              "D:\\Pride\\NetTemple\\Serializations\\序列化（Serializations）.csproj": {
+                "projectPath": "D:\\Pride\\NetTemple\\Serializations\\序列化（Serializations）.csproj"
               },
               "D:\\Pride\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj": {
                 "projectPath": "D:\\Pride\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj"
@@ -74,12 +74,12 @@
         }
       }
     },
-    "D:\\Pride\\NetTemple\\Delegates\\Delegates.csproj": {
+    "D:\\Pride\\NetTemple\\Delegates\\委托和事件（delegateAndEvent）.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pride\\NetTemple\\Delegates\\Delegates.csproj",
-        "projectName": "Delegates",
-        "projectPath": "D:\\Pride\\NetTemple\\Delegates\\Delegates.csproj",
+        "projectUniqueName": "D:\\Pride\\NetTemple\\Delegates\\委托和事件（delegateAndEvent）.csproj",
+        "projectName": "委托和事件（delegateAndEvent）",
+        "projectPath": "D:\\Pride\\NetTemple\\Delegates\\委托和事件（delegateAndEvent）.csproj",
         "packagesPath": "C:\\Users\\Pride\\.nuget\\packages\\",
         "outputPath": "D:\\Pride\\NetTemple\\Delegates\\obj\\",
         "projectStyle": "PackageReference",
@@ -135,12 +135,12 @@
         }
       }
     },
-    "D:\\Pride\\NetTemple\\Interface\\Interface.csproj": {
+    "D:\\Pride\\NetTemple\\Interface\\接口（Interface）.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pride\\NetTemple\\Interface\\Interface.csproj",
-        "projectName": "Interface",
-        "projectPath": "D:\\Pride\\NetTemple\\Interface\\Interface.csproj",
+        "projectUniqueName": "D:\\Pride\\NetTemple\\Interface\\接口（Interface）.csproj",
+        "projectName": "接口（Interface）",
+        "projectPath": "D:\\Pride\\NetTemple\\Interface\\接口（Interface）.csproj",
         "packagesPath": "C:\\Users\\Pride\\.nuget\\packages\\",
         "outputPath": "D:\\Pride\\NetTemple\\Interface\\obj\\",
         "projectStyle": "PackageReference",
@@ -255,12 +255,12 @@
         }
       }
     },
-    "D:\\Pride\\NetTemple\\Serializations\\Serializations.csproj": {
+    "D:\\Pride\\NetTemple\\Serializations\\序列化（Serializations）.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pride\\NetTemple\\Serializations\\Serializations.csproj",
-        "projectName": "Serializations",
-        "projectPath": "D:\\Pride\\NetTemple\\Serializations\\Serializations.csproj",
+        "projectUniqueName": "D:\\Pride\\NetTemple\\Serializations\\序列化（Serializations）.csproj",
+        "projectName": "序列化（Serializations）",
+        "projectPath": "D:\\Pride\\NetTemple\\Serializations\\序列化（Serializations）.csproj",
         "packagesPath": "C:\\Users\\Pride\\.nuget\\packages\\",
         "outputPath": "D:\\Pride\\NetTemple\\Serializations\\obj\\",
         "projectStyle": "PackageReference",
@@ -472,11 +472,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Pride\\NetTemple\\Delegates\\Delegates.csproj": {
-                "projectPath": "D:\\Pride\\NetTemple\\Delegates\\Delegates.csproj"
+              "D:\\Pride\\NetTemple\\Delegates\\委托和事件（delegateAndEvent）.csproj": {
+                "projectPath": "D:\\Pride\\NetTemple\\Delegates\\委托和事件（delegateAndEvent）.csproj"
               },
-              "D:\\Pride\\NetTemple\\Interface\\Interface.csproj": {
-                "projectPath": "D:\\Pride\\NetTemple\\Interface\\Interface.csproj"
+              "D:\\Pride\\NetTemple\\Interface\\接口（Interface）.csproj": {
+                "projectPath": "D:\\Pride\\NetTemple\\Interface\\接口（Interface）.csproj"
               },
               "D:\\Pride\\NetTemple\\Redis\\Redis.csproj": {
                 "projectPath": "D:\\Pride\\NetTemple\\Redis\\Redis.csproj"

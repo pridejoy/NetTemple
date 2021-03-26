@@ -33,9 +33,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Pride\\NetTemple\\Delegates\\Delegates.csproj",
-      "projectName": "Delegates",
-      "projectPath": "D:\\Pride\\NetTemple\\Delegates\\Delegates.csproj",
+      "projectUniqueName": "D:\\Pride\\NetTemple\\Delegates\\委托和事件（delegateAndEvent）.csproj",
+      "projectName": "委托和事件（delegateAndEvent）",
+      "projectPath": "D:\\Pride\\NetTemple\\Delegates\\委托和事件（delegateAndEvent）.csproj",
       "packagesPath": "C:\\Users\\Pride\\.nuget\\packages\\",
       "outputPath": "D:\\Pride\\NetTemple\\Delegates\\obj\\",
       "projectStyle": "PackageReference",

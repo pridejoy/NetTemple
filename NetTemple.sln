@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection", "NetTemple\Reflection.csproj", "{8FCAE73F-F444-465D-857E-91C93C740BE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "反射（Reflection）", "NetTemple\反射（Reflection）.csproj", "{8FCAE73F-F444-465D-857E-91C93C740BE5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface", "Interface\Interface.csproj", "{ECD4BB85-EF83-4703-A652-CD18CB3C7861}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "接口（Interface）", "Interface\接口（Interface）.csproj", "{ECD4BB85-EF83-4703-A652-CD18CB3C7861}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Files", "File\Files.csproj", "{CF2BFD7E-07FC-4052-9D03-B121C04B8AE3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serializations", "Serializations\Serializations.csproj", "{4405C8A0-84C3-4292-99F3-F95A8F9CF4A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "序列化（Serializations）", "Serializations\序列化（Serializations）.csproj", "{4405C8A0-84C3-4292-99F3-F95A8F9CF4A3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates", "Delegates\Delegates.csproj", "{9354DFA5-D206-4E1C-8DAC-62010BE1C22A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "委托和事件（delegateAndEvent）", "Delegates\委托和事件（delegateAndEvent）.csproj", "{9354DFA5-D206-4E1C-8DAC-62010BE1C22A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asynchronous", "Asynchronous\Asynchronous.csproj", "{7FE1AD82-06EA-4BF5-AE3E-16A0EEF3BB75}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpSix", "SharpSix\SharpSix.csproj", "{B22B3DC6-E0C3-4564-9C83-D897048B885A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDictionarys", "ToDictionarys\ToDictionarys.csproj", "{44E10A15-AD18-4817-ADF2-5384302A9D8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "字典类型（Dictionary）", "ToDictionarys\字典类型（Dictionary）.csproj", "{44E10A15-AD18-4817-ADF2-5384302A9D8A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redis", "Redis\Redis.csproj", "{6B759C8A-587D-4785-8A25-AD09762B4EEA}"
 EndProject
@@ -93,7 +93,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "二叉树", "二叉树\二�
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "算法", "算法", "{FAA6AD48-A871-4704-9248-98771DB7BD4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leetcode", "leetcode\leetcode.csproj", "{FA5CCA04-B307-4280-B456-1799CF684EEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "leetcode", "leetcode\leetcode.csproj", "{FA5CCA04-B307-4280-B456-1799CF684EEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "委托(Delegalte)", "委托\委托(Delegalte).csproj", "{BAEB210C-F7A2-4F26-B887-6893ECACDC48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -261,6 +263,10 @@ Global
 		{FA5CCA04-B307-4280-B456-1799CF684EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA5CCA04-B307-4280-B456-1799CF684EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA5CCA04-B307-4280-B456-1799CF684EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAEB210C-F7A2-4F26-B887-6893ECACDC48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAEB210C-F7A2-4F26-B887-6893ECACDC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAEB210C-F7A2-4F26-B887-6893ECACDC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAEB210C-F7A2-4F26-B887-6893ECACDC48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -303,6 +309,7 @@ Global
 		{ECCD8760-BE67-437B-A90D-9C17598304EA} = {EC681E60-CDDA-47DB-8A0B-1A2840C97DEF}
 		{30F7F8BB-627B-4866-B073-8B80802CE460} = {EC681E60-CDDA-47DB-8A0B-1A2840C97DEF}
 		{FA5CCA04-B307-4280-B456-1799CF684EEB} = {FAA6AD48-A871-4704-9248-98771DB7BD4B}
+		{BAEB210C-F7A2-4F26-B887-6893ECACDC48} = {EC681E60-CDDA-47DB-8A0B-1A2840C97DEF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6857292-1ED6-4745-91C4-A810BA862DDD}

@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Pride\\NetTemple\\NetTemple\\Reflection.csproj",
-      "projectName": "Reflection",
-      "projectPath": "D:\\Pride\\NetTemple\\NetTemple\\Reflection.csproj",
+      "projectUniqueName": "D:\\Pride\\NetTemple\\NetTemple\\反射（Reflection）.csproj",
+      "projectName": "反射（Reflection）",
+      "projectPath": "D:\\Pride\\NetTemple\\NetTemple\\反射（Reflection）.csproj",
       "packagesPath": "C:\\Users\\Pride\\.nuget\\packages\\",
       "outputPath": "D:\\Pride\\NetTemple\\NetTemple\\obj\\",
       "projectStyle": "PackageReference",

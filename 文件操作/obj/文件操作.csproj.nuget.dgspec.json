@@ -4,12 +4,12 @@
     "D:\\Pride\\NetTemple\\文件操作\\文件操作.csproj": {}
   },
   "projects": {
-    "D:\\Pride\\NetTemple\\Delegates\\Delegates.csproj": {
+    "D:\\Pride\\NetTemple\\Delegates\\委托和事件（delegateAndEvent）.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pride\\NetTemple\\Delegates\\Delegates.csproj",
-        "projectName": "Delegates",
-        "projectPath": "D:\\Pride\\NetTemple\\Delegates\\Delegates.csproj",
+        "projectUniqueName": "D:\\Pride\\NetTemple\\Delegates\\委托和事件（delegateAndEvent）.csproj",
+        "projectName": "委托和事件（delegateAndEvent）",
+        "projectPath": "D:\\Pride\\NetTemple\\Delegates\\委托和事件（delegateAndEvent）.csproj",
         "packagesPath": "C:\\Users\\Pride\\.nuget\\packages\\",
         "outputPath": "D:\\Pride\\NetTemple\\Delegates\\obj\\",
         "projectStyle": "PackageReference",
@@ -149,8 +149,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Pride\\NetTemple\\Delegates\\Delegates.csproj": {
-                "projectPath": "D:\\Pride\\NetTemple\\Delegates\\Delegates.csproj"
+              "D:\\Pride\\NetTemple\\Delegates\\委托和事件（delegateAndEvent）.csproj": {
+                "projectPath": "D:\\Pride\\NetTemple\\Delegates\\委托和事件（delegateAndEvent）.csproj"
               }
             }
           }

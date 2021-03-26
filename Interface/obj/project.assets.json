@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Pride\\NetTemple\\Interface\\Interface.csproj",
-      "projectName": "Interface",
-      "projectPath": "D:\\Pride\\NetTemple\\Interface\\Interface.csproj",
+      "projectUniqueName": "D:\\Pride\\NetTemple\\Interface\\接口（Interface）.csproj",
+      "projectName": "接口（Interface）",
+      "projectPath": "D:\\Pride\\NetTemple\\Interface\\接口（Interface）.csproj",
       "packagesPath": "C:\\Users\\Pride\\.nuget\\packages\\",
       "outputPath": "D:\\Pride\\NetTemple\\Interface\\obj\\",
       "projectStyle": "PackageReference",

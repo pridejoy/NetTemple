@@ -5,8 +5,4 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Delegates\委托和事件（delegateAndEvent）.csproj" />
-  </ItemGroup>
-
 </Project>

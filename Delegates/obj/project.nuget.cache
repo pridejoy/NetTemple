@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lpI9hYVOapPRU87LQkdL+1nrxS2ks2m8D9gm4X6aP2R+NYFrwp9CBvN0qrbVy9oK/Q36rS5YyAP79h20b3TZyg==",
+  "dgSpecHash": "l3TzfJTn5Juti4CIhS4K7LcR+vM50LM5v+EzYYUXRMlYrpoOlC8s1Gr7fzkCHGxpC6WS4DZPuSys+/wyt7CPOg==",
   "success": true,
-  "projectFilePath": "D:\\Pride\\NetTemple\\Delegates\\Delegates.csproj",
+  "projectFilePath": "D:\\Pride\\NetTemple\\Delegates\\委托和事件（delegateAndEvent）.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -5669,9 +5669,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Pride\\NetTemple\\Serializations\\Serializations.csproj",
-      "projectName": "Serializations",
-      "projectPath": "D:\\Pride\\NetTemple\\Serializations\\Serializations.csproj",
+      "projectUniqueName": "D:\\Pride\\NetTemple\\Serializations\\序列化（Serializations）.csproj",
+      "projectName": "序列化（Serializations）",
+      "projectPath": "D:\\Pride\\NetTemple\\Serializations\\序列化（Serializations）.csproj",
       "packagesPath": "C:\\Users\\Pride\\.nuget\\packages\\",
       "outputPath": "D:\\Pride\\NetTemple\\Serializations\\obj\\",
       "projectStyle": "PackageReference",

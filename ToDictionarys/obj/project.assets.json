@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Pride\\NetTemple\\ToDictionarys\\ToDictionarys.csproj",
-      "projectName": "ToDictionarys",
-      "projectPath": "D:\\Pride\\NetTemple\\ToDictionarys\\ToDictionarys.csproj",
+      "projectUniqueName": "D:\\Pride\\NetTemple\\ToDictionarys\\字典类型（dictionary）.csproj",
+      "projectName": "字典类型（dictionary）",
+      "projectPath": "D:\\Pride\\NetTemple\\ToDictionarys\\字典类型（dictionary）.csproj",
       "packagesPath": "C:\\Users\\Pride\\.nuget\\packages\\",
       "outputPath": "D:\\Pride\\NetTemple\\ToDictionarys\\obj\\",
       "projectStyle": "PackageReference",

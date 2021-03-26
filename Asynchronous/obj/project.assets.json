@@ -1795,29 +1795,6 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Delegates/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "哈希表(Hashtable)": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Delegates.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Delegates.dll": {}
-        }
-      },
-      "Interface/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/Interface.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Interface.dll": {}
-        }
-      },
       "Redis/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1831,19 +1808,6 @@
           "bin/placeholder/Redis.dll": {}
         }
       },
-      "Serializations/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Nancy": "2.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Serializations.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Serializations.dll": {}
-        }
-      },
       "哈希表(Hashtable)/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1854,13 +1818,49 @@
           "bin/placeholder/哈希表(Hashtable).dll": {}
         }
       },
+      "委托和事件（delegateAndEvent）/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "哈希表(Hashtable)": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/委托和事件（delegateAndEvent）.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/委托和事件（delegateAndEvent）.dll": {}
+        }
+      },
+      "序列化（Serializations）/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Nancy": "2.0.0"
+        },
+        "compile": {
+          "bin/placeholder/序列化（Serializations）.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/序列化（Serializations）.dll": {}
+        }
+      },
+      "接口（Interface）/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/接口（Interface）.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/接口（Interface）.dll": {}
+        }
+      },
       "有序列表(SortedList)/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Delegates": "1.0.0",
-          "Interface": "1.0.0",
-          "Redis": "1.0.0"
+          "Redis": "1.0.0",
+          "委托和事件（delegateAndEvent）": "1.0.0",
+          "接口（Interface）": "1.0.0"
         },
         "compile": {
           "bin/placeholder/有序列表(SortedList).dll": {}
@@ -6457,30 +6457,30 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "Delegates/1.0.0": {
-      "type": "project",
-      "path": "../Delegates/Delegates.csproj",
-      "msbuildProject": "../Delegates/Delegates.csproj"
-    },
-    "Interface/1.0.0": {
-      "type": "project",
-      "path": "../Interface/Interface.csproj",
-      "msbuildProject": "../Interface/Interface.csproj"
-    },
     "Redis/1.0.0": {
       "type": "project",
       "path": "../Redis/Redis.csproj",
       "msbuildProject": "../Redis/Redis.csproj"
     },
-    "Serializations/1.0.0": {
-      "type": "project",
-      "path": "../Serializations/Serializations.csproj",
-      "msbuildProject": "../Serializations/Serializations.csproj"
-    },
     "哈希表(Hashtable)/1.0.0": {
       "type": "project",
       "path": "../哈希表(Hashtable)/哈希表(Hashtable).csproj",
       "msbuildProject": "../哈希表(Hashtable)/哈希表(Hashtable).csproj"
+    },
+    "委托和事件（delegateAndEvent）/1.0.0": {
+      "type": "project",
+      "path": "../Delegates/委托和事件（delegateAndEvent）.csproj",
+      "msbuildProject": "../Delegates/委托和事件（delegateAndEvent）.csproj"
+    },
+    "序列化（Serializations）/1.0.0": {
+      "type": "project",
+      "path": "../Serializations/序列化（Serializations）.csproj",
+      "msbuildProject": "../Serializations/序列化（Serializations）.csproj"
+    },
+    "接口（Interface）/1.0.0": {
+      "type": "project",
+      "path": "../Interface/接口（Interface）.csproj",
+      "msbuildProject": "../Interface/接口（Interface）.csproj"
     },
     "有序列表(SortedList)/1.0.0": {
       "type": "project",
@@ -6490,9 +6490,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Delegates >= 1.0.0",
-      "Interface >= 1.0.0",
-      "Serializations >= 1.0.0",
+      "委托和事件（delegateAndEvent） >= 1.0.0",
+      "序列化（Serializations） >= 1.0.0",
+      "接口（Interface） >= 1.0.0",
       "有序列表(SortedList) >= 1.0.0"
     ]
   },
@@ -6527,14 +6527,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Pride\\NetTemple\\Delegates\\Delegates.csproj": {
-              "projectPath": "D:\\Pride\\NetTemple\\Delegates\\Delegates.csproj"
+            "D:\\Pride\\NetTemple\\Delegates\\委托和事件（delegateAndEvent）.csproj": {
+              "projectPath": "D:\\Pride\\NetTemple\\Delegates\\委托和事件（delegateAndEvent）.csproj"
             },
-            "D:\\Pride\\NetTemple\\Interface\\Interface.csproj": {
-              "projectPath": "D:\\Pride\\NetTemple\\Interface\\Interface.csproj"
+            "D:\\Pride\\NetTemple\\Interface\\接口（Interface）.csproj": {
+              "projectPath": "D:\\Pride\\NetTemple\\Interface\\接口（Interface）.csproj"
             },
-            "D:\\Pride\\NetTemple\\Serializations\\Serializations.csproj": {
-              "projectPath": "D:\\Pride\\NetTemple\\Serializations\\Serializations.csproj"
+            "D:\\Pride\\NetTemple\\Serializations\\序列化（Serializations）.csproj": {
+              "projectPath": "D:\\Pride\\NetTemple\\Serializations\\序列化（Serializations）.csproj"
             },
             "D:\\Pride\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj": {
               "projectPath": "D:\\Pride\\NetTemple\\有序列表(SortedList)\\有序列表(SortedList).csproj"

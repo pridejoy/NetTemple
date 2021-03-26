@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Delegates\Delegates.csproj" />
-    <ProjectReference Include="..\Interface\Interface.csproj" />
+    <ProjectReference Include="..\Delegates\委托和事件（delegateAndEvent）.csproj" />
+    <ProjectReference Include="..\Interface\接口（Interface）.csproj" />
     <ProjectReference Include="..\Redis\Redis.csproj" />
   </ItemGroup>
 
