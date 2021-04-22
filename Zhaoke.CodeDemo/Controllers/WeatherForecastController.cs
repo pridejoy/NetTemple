@@ -21,6 +21,10 @@ namespace Zhaoke.CodeDemo.Controllers
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
+            _logger.LogDebug("我是HomeController");
+            _logger.LogWarning("我是HomeController");
+            _logger.LogInformation("我是HomeController");
+            _logger.LogError("我是HomeController");
         }
 
         [HttpGet]

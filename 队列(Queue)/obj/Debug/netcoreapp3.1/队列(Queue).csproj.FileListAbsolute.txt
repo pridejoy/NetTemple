@@ -11,3 +11,16 @@ C:\Users\1234\source\repos\NetTemple\队列(Queue)\obj\Debug\netcoreapp3.1\队�
 C:\Users\1234\source\repos\NetTemple\队列(Queue)\obj\Debug\netcoreapp3.1\队列(Queue).pdb
 C:\Users\1234\source\repos\NetTemple\队列(Queue)\obj\Debug\netcoreapp3.1\队列(Queue).genruntimeconfig.cache
 C:\Users\1234\source\repos\NetTemple\队列(Queue)\obj\Debug\netcoreapp3.1\队列(Queue).csprojAssemblyReference.cache
+D:\Pride\NetTemple\队列(Queue)\bin\Debug\netcoreapp3.1\队列(Queue).exe
+D:\Pride\NetTemple\队列(Queue)\bin\Debug\netcoreapp3.1\队列(Queue).deps.json
+D:\Pride\NetTemple\队列(Queue)\bin\Debug\netcoreapp3.1\队列(Queue).runtimeconfig.json
+D:\Pride\NetTemple\队列(Queue)\bin\Debug\netcoreapp3.1\队列(Queue).runtimeconfig.dev.json
+D:\Pride\NetTemple\队列(Queue)\bin\Debug\netcoreapp3.1\队列(Queue).dll
+D:\Pride\NetTemple\队列(Queue)\bin\Debug\netcoreapp3.1\队列(Queue).pdb
+D:\Pride\NetTemple\队列(Queue)\obj\Debug\netcoreapp3.1\队列(Queue).csprojAssemblyReference.cache
+D:\Pride\NetTemple\队列(Queue)\obj\Debug\netcoreapp3.1\队列(Queue).AssemblyInfoInputs.cache
+D:\Pride\NetTemple\队列(Queue)\obj\Debug\netcoreapp3.1\队列(Queue).AssemblyInfo.cs
+D:\Pride\NetTemple\队列(Queue)\obj\Debug\netcoreapp3.1\队列(Queue).csproj.CoreCompileInputs.cache
+D:\Pride\NetTemple\队列(Queue)\obj\Debug\netcoreapp3.1\队列(Queue).dll
+D:\Pride\NetTemple\队列(Queue)\obj\Debug\netcoreapp3.1\队列(Queue).pdb
+D:\Pride\NetTemple\队列(Queue)\obj\Debug\netcoreapp3.1\队列(Queue).genruntimeconfig.cache

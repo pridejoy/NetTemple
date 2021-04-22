@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Pride\\NetTemple\\ToDictionarys\\字典类型（dictionary）.csproj",
-      "projectName": "字典类型（dictionary）",
-      "projectPath": "D:\\Pride\\NetTemple\\ToDictionarys\\字典类型（dictionary）.csproj",
+      "projectUniqueName": "D:\\Pride\\NetTemple\\ToDictionarys\\字典类型（Dictionary）.csproj",
+      "projectName": "字典类型（Dictionary）",
+      "projectPath": "D:\\Pride\\NetTemple\\ToDictionarys\\字典类型（Dictionary）.csproj",
       "packagesPath": "C:\\Users\\Pride\\.nuget\\packages\\",
       "outputPath": "D:\\Pride\\NetTemple\\ToDictionarys\\obj\\",
       "projectStyle": "PackageReference",
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

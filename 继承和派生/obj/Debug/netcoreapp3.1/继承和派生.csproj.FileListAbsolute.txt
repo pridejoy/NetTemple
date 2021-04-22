@@ -11,3 +11,16 @@ C:\Users\1234\source\repos\NetTemple\继承和派生\bin\Debug\netcoreapp3.1\继
 C:\Users\1234\source\repos\NetTemple\继承和派生\bin\Debug\netcoreapp3.1\继承和派生.runtimeconfig.json
 C:\Users\1234\source\repos\NetTemple\继承和派生\bin\Debug\netcoreapp3.1\继承和派生.runtimeconfig.dev.json
 C:\Users\1234\source\repos\NetTemple\继承和派生\obj\Debug\netcoreapp3.1\继承和派生.genruntimeconfig.cache
+D:\Pride\NetTemple\继承和派生\bin\Debug\netcoreapp3.1\继承和派生.exe
+D:\Pride\NetTemple\继承和派生\bin\Debug\netcoreapp3.1\继承和派生.deps.json
+D:\Pride\NetTemple\继承和派生\bin\Debug\netcoreapp3.1\继承和派生.runtimeconfig.json
+D:\Pride\NetTemple\继承和派生\bin\Debug\netcoreapp3.1\继承和派生.runtimeconfig.dev.json
+D:\Pride\NetTemple\继承和派生\bin\Debug\netcoreapp3.1\继承和派生.dll
+D:\Pride\NetTemple\继承和派生\bin\Debug\netcoreapp3.1\继承和派生.pdb
+D:\Pride\NetTemple\继承和派生\obj\Debug\netcoreapp3.1\继承和派生.csprojAssemblyReference.cache
+D:\Pride\NetTemple\继承和派生\obj\Debug\netcoreapp3.1\继承和派生.AssemblyInfoInputs.cache
+D:\Pride\NetTemple\继承和派生\obj\Debug\netcoreapp3.1\继承和派生.AssemblyInfo.cs
+D:\Pride\NetTemple\继承和派生\obj\Debug\netcoreapp3.1\继承和派生.csproj.CoreCompileInputs.cache
+D:\Pride\NetTemple\继承和派生\obj\Debug\netcoreapp3.1\继承和派生.dll
+D:\Pride\NetTemple\继承和派生\obj\Debug\netcoreapp3.1\继承和派生.pdb
+D:\Pride\NetTemple\继承和派生\obj\Debug\netcoreapp3.1\继承和派生.genruntimeconfig.cache

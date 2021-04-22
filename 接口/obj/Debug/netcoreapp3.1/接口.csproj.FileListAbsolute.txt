@@ -11,3 +11,16 @@ C:\Users\1234\source\repos\NetTemple\接口\obj\Debug\netcoreapp3.1\接口.cspro
 C:\Users\1234\source\repos\NetTemple\接口\obj\Debug\netcoreapp3.1\接口.dll
 C:\Users\1234\source\repos\NetTemple\接口\obj\Debug\netcoreapp3.1\接口.pdb
 C:\Users\1234\source\repos\NetTemple\接口\obj\Debug\netcoreapp3.1\接口.genruntimeconfig.cache
+D:\Pride\NetTemple\接口\bin\Debug\netcoreapp3.1\接口.exe
+D:\Pride\NetTemple\接口\bin\Debug\netcoreapp3.1\接口.deps.json
+D:\Pride\NetTemple\接口\bin\Debug\netcoreapp3.1\接口.runtimeconfig.json
+D:\Pride\NetTemple\接口\bin\Debug\netcoreapp3.1\接口.runtimeconfig.dev.json
+D:\Pride\NetTemple\接口\bin\Debug\netcoreapp3.1\接口.dll
+D:\Pride\NetTemple\接口\bin\Debug\netcoreapp3.1\接口.pdb
+D:\Pride\NetTemple\接口\obj\Debug\netcoreapp3.1\接口.csprojAssemblyReference.cache
+D:\Pride\NetTemple\接口\obj\Debug\netcoreapp3.1\接口.AssemblyInfoInputs.cache
+D:\Pride\NetTemple\接口\obj\Debug\netcoreapp3.1\接口.AssemblyInfo.cs
+D:\Pride\NetTemple\接口\obj\Debug\netcoreapp3.1\接口.csproj.CoreCompileInputs.cache
+D:\Pride\NetTemple\接口\obj\Debug\netcoreapp3.1\接口.dll
+D:\Pride\NetTemple\接口\obj\Debug\netcoreapp3.1\接口.pdb
+D:\Pride\NetTemple\接口\obj\Debug\netcoreapp3.1\接口.genruntimeconfig.cache

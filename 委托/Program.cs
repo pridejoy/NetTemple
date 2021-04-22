@@ -42,7 +42,7 @@ namespace 委托
             Action action;
             action = SayHi;
             action();
-            Func<int, int,int> func;
+            Func<int,int,string> func;
             func = SayInt;
             var a =func(567,123);
             Console.WriteLine(a);
@@ -66,10 +66,10 @@ namespace 委托
             return a;
         }
 
-        public static int SayInt(int a,int b)
+        public static string SayInt(int a,int b)
         {
             Console.WriteLine($"我是{a}和{b}");
-            return a;
+            return $"我是{a}和{b}";
         }
     }
 

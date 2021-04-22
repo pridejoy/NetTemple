@@ -11,3 +11,16 @@ C:\Users\1234\source\repos\NetTemple\File\obj\Debug\netcoreapp3.1\Files.csproj.C
 C:\Users\1234\source\repos\NetTemple\File\obj\Debug\netcoreapp3.1\Files.dll
 C:\Users\1234\source\repos\NetTemple\File\obj\Debug\netcoreapp3.1\Files.pdb
 C:\Users\1234\source\repos\NetTemple\File\obj\Debug\netcoreapp3.1\Files.genruntimeconfig.cache
+D:\Pride\NetTemple\File\bin\Debug\netcoreapp3.1\Files.exe
+D:\Pride\NetTemple\File\bin\Debug\netcoreapp3.1\Files.deps.json
+D:\Pride\NetTemple\File\bin\Debug\netcoreapp3.1\Files.runtimeconfig.json
+D:\Pride\NetTemple\File\bin\Debug\netcoreapp3.1\Files.runtimeconfig.dev.json
+D:\Pride\NetTemple\File\bin\Debug\netcoreapp3.1\Files.dll
+D:\Pride\NetTemple\File\bin\Debug\netcoreapp3.1\Files.pdb
+D:\Pride\NetTemple\File\obj\Debug\netcoreapp3.1\Files.csprojAssemblyReference.cache
+D:\Pride\NetTemple\File\obj\Debug\netcoreapp3.1\Files.AssemblyInfoInputs.cache
+D:\Pride\NetTemple\File\obj\Debug\netcoreapp3.1\Files.AssemblyInfo.cs
+D:\Pride\NetTemple\File\obj\Debug\netcoreapp3.1\Files.csproj.CoreCompileInputs.cache
+D:\Pride\NetTemple\File\obj\Debug\netcoreapp3.1\Files.dll
+D:\Pride\NetTemple\File\obj\Debug\netcoreapp3.1\Files.pdb
+D:\Pride\NetTemple\File\obj\Debug\netcoreapp3.1\Files.genruntimeconfig.cache
