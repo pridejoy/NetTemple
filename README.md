@@ -1,6 +1,10 @@
 # 项目介绍
 这个项目是关于c#基本知识学习的练习，作为我入门的练手程序，自己学习的一个积累，如今共享出来，也希望对学习C#的朋友有点参考价值。
 
+## 我的公众号，不求粉丝，随缘
+ 分享最新的Net和Core相关技术以及实战技巧，更重要的是分享Net项目，不容错过的还有书籍，手写笔记,壁纸分享 等。
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20201230165308559.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNzMyMzM2,size_1,color_FFFFFF,t_0)
+
 
 ## oop基础
 
