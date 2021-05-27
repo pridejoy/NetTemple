@@ -16,7 +16,6 @@ namespace 基础知识
         {
 
             //Queue 类不能在创建实例时直接添加值
-
             //Queue 类提供了 4 个构造方法，如下表所示。
 
             //构造方法                               |                      作用
@@ -25,7 +24,7 @@ namespace 基础知识
             //Queue(int capacity)                    |   创建 Queue 的实例，并设置其指定的元素个数，默认增长因子
             //Queue(int capacity, float growFactor)  |   创建 Queue 的实例，并设置其指定的元素个数和增长因子
 
-            //
+        
             //增长因子是指当需要扩大容量时，以当前的容量（capacity）值乘以增长因子（growFactor）的值来自动增加容量。
 
             //第 1 中构造器
@@ -62,6 +61,8 @@ namespace 基础知识
             queue.Enqueue("李四");
             queue.Enqueue("王五");
             Console.WriteLine("排队开始:");
+            Console.WriteLine("排队一共有:"+$"{queue.Count} 人");
+            Console.WriteLine("张三是否在里面:" + $"{queue.Contains("张三")} ");
             while (queue.Count != 0)
             {
                 Console.WriteLine(queue.Dequeue() + "已购票");

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics.Tracing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,11 +15,10 @@ namespace 基础知识.基础
     {
         public static void DoSmaple()
         {
-            //Stack(栈)是常见的数据结构之一，栈是一种先进后出的结构，即元素从栈的尾部插入，从栈的尾部移除，
+            //Stack(栈)是常见的数据结构之一，
+            //栈是一种先进后出的结构，即元素从栈的尾部插入，从栈的尾部移除，
             //类似于日常生活中搬家的时候装车，先装上车的东西要后拿下来。
-
             //集合中的 Stack 类模拟了栈操作，提供了栈中常用的属性和方法。
-
             //Stack 类提供了 3 种构造方法，如下表所示
             //构造方法                |          作用
             //Stack()                 |  使用初始容量创建 Stack 的对象
@@ -45,8 +45,15 @@ namespace 基础知识.基础
             stack.Push("4号盘子");
             stack.Push("5号盘子");
             Console.WriteLine("取出盘子:");
+            foreach (var VARIABLE in stack)
+            {
+                Console.WriteLine("获取栈顶的值但不移除:" + stack.Peek());
+                Console.WriteLine("获取栈顶的值但不移除:" + VARIABLE);
+                Console.WriteLine("判断某个元素是否在 Stack 中:" + stack.Contains("5号盘子"));
+            }
             while (stack.Count != 0)
             {
+                
                 Console.WriteLine(stack.Pop());
             }
         }

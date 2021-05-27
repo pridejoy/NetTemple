@@ -22,9 +22,11 @@ namespace 基础知识
             //Hashtable类：哈希表（散列表）
             //C# Hashtable 类实现了 IDictionary 接口，集合中的值都是以键值对的形式存取的。
 
-            //C# 中的 Hashtable 称为哈希表，也称为散列表，在该集合中使用键值对（key/value）的形式存放值。
+            //C# 中的 Hashtable 称为哈希表，
+            //也称为散列表，在该集合中使用键值对（key/value）的形式存放值。
 
-            //换句话说，在 Hashtable 中存放了两个数组，一个数组用于存放 key 值，一个数组用于存放 value 值。
+            //换句话说，在 Hashtable 中存放了两个数组，
+            //一个数组用于存放 key 值，一个数组用于存放 value 值。
 
             //此外，还提供了根据集合中元素的 key 值查找其对应的 value 值的方法。
 
@@ -42,11 +44,12 @@ namespace 基础知识
 
 
             //【实例】使用 Hashtable 集合实现图书信息的添加、查找以及遍历的操作。
-
+            var aa = new  {aaaa = "asd"};
             Hashtable ht = new Hashtable();
             ht.Add(1, "计算机基础");
             ht.Add(2, "C#高级编程");
             ht.Add(3, "数据库应用");
+            ht.Add(4, aa);
             Console.WriteLine("请输入图书编号");
             int id = int.Parse(Console.ReadLine());
             bool flag = ht.ContainsKey(id);

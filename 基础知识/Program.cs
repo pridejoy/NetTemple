@@ -11,23 +11,37 @@ namespace 基础知识
         {
             #region 基础
 
+
+            ////数据结构
+
+            //堆栈.DoSmaple();
+            //队列.DoSmaple();
+            //多维数组.DoSmaple();
+            泛型.DoSmaple();
+            哈希表.DoSmaple();
+
+            ////概念
+
+            密封类或密封方法.DoSmaple();
+            //抽象类抽象方法.DoSmaple();
+            //反射.DoSmaple();
+            //构造函数.DoSmaple();
+
             //字符串.DoSmaple();
             //XML.DoSmaple();
-            抽象类抽象方法.DoSmaple();
-            堆栈.DoSmaple();
-            队列.DoSmaple();
-            多维数组.DoSmaple();
-            反射.DoSmaple();
+
+
+
+
             Redis.DoSmaple();
             Sharp6.DoSmaple();
-            泛型.DoSmaple();
-            构造函数.DoSmaple();
-            哈希表.DoSmaple();
+            
+            
+           
             集合.DoSmaple();
             接口.DoSmaple();
-            接口2.DoSmaple();
             进程.DoSmaple();
-            密封类或密封方法.DoSmaple();
+           
             事件.DoSmaple();
             委托和事件.DoSmaple();
             文件操作.DoSmaple();
