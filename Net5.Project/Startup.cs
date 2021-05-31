@@ -11,12 +11,20 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
+using Autofac.Extras.DynamicProxy;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.Extensions.Caching.Memory;
 using Microsoft.IdentityModel.Tokens;
 using Net5.Common.Helper;
 using Swashbuckle.AspNetCore.Filters;
+using Net5.IServices;
+using Net5.Services;
+using Microsoft.Extensions.PlatformAbstractions;
 
 namespace Net5.Project
 {
@@ -42,6 +50,14 @@ namespace Net5.Project
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Net5.Project", Version = "v1" });
 
+                #region 读取xml信息
+                //var basePath = PlatformServices.Default.Application.ApplicationBasePath;
+                //var xmlPath = Path.Combine(basePath, "Net5.Projecte.xml");//这个就是刚刚配置的xml文件名
+                //var xmlModelPath = Path.Combine(basePath, "Net5.Project.Model.xml");//这个就是Model层的xml文件名
+                //c.IncludeXmlComments(xmlPath, true);//默认的第二个参数是false，这个是controller的注释，记得修改
+                //c.IncludeXmlComments(xmlModelPath);
+                #endregion
+
                 #region Token绑定到ConfigureServices
                 // 开启加权小锁
                 c.OperationFilter<AddResponseHeadersFilter>();
@@ -51,10 +67,6 @@ namespace Net5.Project
                 // 添加包管理 Swashbuckle.AspNetCore.Filters
                 c.OperationFilter<SecurityRequirementsOperationFilter>();
 
-                var security = new Dictionary<string, IEnumerable<string>> { { "Blog.Core", new string[] { } }, };
-                //c.AddSecurityRequirement(security);//3.0不需要了，可以删掉
-
-                //方案名称“Blog.Core”可自定义，上下一致即可                
                 c.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
                 {
                     Description = "JWT授权(数据将在请求头中进行传输) 直接在下框中输入Bearer {token}（注意两者之间是一个空格）\"",
@@ -108,6 +120,37 @@ namespace Net5.Project
                     };
 
                 });
+
+            //#region Token服务注册
+            //services.AddSingleton<IMemoryCache>(factory =>
+            //{
+            //    var cache = new MemoryCache(new MemoryCacheOptions());
+            //    return cache;
+            //});
+            //services.AddAuthorization(options =>
+            //{
+            //    options.AddPolicy("Admin", policy => policy.RequireClaim("AdminType").Build());//注册权限管理，可以自定义多个
+            //});
+            //#endregion
+
+            //#region AutoFac
+
+            ////实例化 AutoFac  容器   
+            //var builder = new ContainerBuilder();
+
+            ////注册要通过反射创建的组件
+            //builder.RegisterType<AdvertisementServices>().As<IAdvertisementServices>();
+
+            ////将services填充到Autofac容器生成器中
+            //builder.Populate(services);
+
+            ////使用已进行的组件登记创建新容器
+            //var ApplicationContainer = builder.Build();
+
+            //#endregion
+
+            //return new AutofacServiceProvider(ApplicationContainer);//第三方IOC接管 core内置DI容器
+
         }
 
         // 此方法由运行时调用。使用此方法配置HTTP请求管道。
@@ -142,5 +185,95 @@ namespace Net5.Project
                 endpoints.MapControllers();
             });
         }
+
+        // 注意在Program.CreateHostBuilder，添加Autofac服务工厂
+        //public void ConfigureContainer(ContainerBuilder builder)
+        //{
+        //    builder.RegisterModule(new AutofacModuleRegister());
+        //}
+
+        public void ConfigureContainer(ContainerBuilder builder)
+        {
+            var basePath = PlatformServices.Default.Application.ApplicationBasePath;
+
+            //注册要通过反射创建的组件
+            //builder.RegisterType<AdvertisementServices>().As<IAdvertisementServices>();
+            //builder.RegisterType<BlogCacheAOP>();//可以直接替换其他拦截器
+            //builder.RegisterType<BlogRedisCacheAOP>();//可以直接替换其他拦截器
+            //builder.RegisterType<BlogLogAOP>();//这样可以注入第二个
+
+            // ※※★※※ 如果你是第一次下载项目，请先F6编译，然后再F5执行，※※★※※
+
+            #region 带有接口层的服务注入
+
+            #region Service.dll 注入，有对应接口
+            //获取项目绝对路径，请注意，这个是实现类的dll文件，不是接口 IService.dll ，注入容器当然是Activatore
+            try
+            {
+                var servicesDllFile = Path.Combine(basePath, "Net5.Services.dll");
+                var assemblysServices = Assembly.LoadFrom(servicesDllFile);//直接采用加载文件的方法  ※※★※※ 如果你是第一次下载项目，请先F6编译，然后再F5执行，※※★※※
+
+                //builder.RegisterAssemblyTypes(assemblysServices).AsImplementedInterfaces();//指定已扫描程序集中的类型注册为提供所有其实现的接口。
+
+
+                // AOP 开关，如果想要打开指定的功能，只需要在 appsettigns.json 对应对应 true 就行。
+                //var cacheType = new List<Type>();
+                //if (Appsettings.app(new string[] { "AppSettings", "RedisCachingAOP", "Enabled" }).ObjToBool())
+                //{
+                //    cacheType.Add(typeof(BlogRedisCacheAOP));
+                //}
+                //if (Appsettings.app(new string[] { "AppSettings", "MemoryCachingAOP", "Enabled" }).ObjToBool())
+                //{
+                //    cacheType.Add(typeof(BlogCacheAOP));
+                //}
+                //if (Appsettings.app(new string[] { "AppSettings", "LogAOP", "Enabled" }).ObjToBool())
+                //{
+                //    cacheType.Add(typeof(BlogLogAOP));
+                //}
+
+                builder.RegisterAssemblyTypes(assemblysServices)
+                    .AsImplementedInterfaces()
+                    .InstancePerLifetimeScope()
+                    .EnableInterfaceInterceptors();//引用Autofac.Extras.DynamicProxy;
+                                                        // 如果你想注入两个，就这么写  InterceptedBy(typeof(BlogCacheAOP), typeof(BlogLogAOP));
+                                                        // 如果想使用Redis缓存，请必须开启 redis 服务，端口号我的是6319，如果不一样还是无效，否则请使用memory缓存 BlogCacheAOP
+                          //.InterceptedBy(cacheType.ToArray());//允许将拦截器服务的列表分配给注册。 
+                #endregion
+
+                #region Repository.dll 注入，有对应接口
+                var repositoryDllFile = Path.Combine(basePath, "Net5.Repository.dll");
+                var assemblysRepository = Assembly.LoadFrom(repositoryDllFile);
+                builder.RegisterAssemblyTypes(assemblysRepository).AsImplementedInterfaces();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("※※★※※ 如果你是第一次下载项目，请先对整个解决方案dotnet build（F6编译），然后再对api层 dotnet run（F5执行），\n因为解耦了，如果你是发布的模式，请检查bin文件夹是否存在Repository.dll和service.dll ※※★※※" + ex.Message + "\n" + ex.InnerException);
+            }
+            #endregion
+            #endregion
+
+
+            #region 没有接口层的服务层注入
+
+            ////因为没有接口层，所以不能实现解耦，只能用 Load 方法。
+            ////注意如果使用没有接口的服务，并想对其使用 AOP 拦截，就必须设置为虚方法
+            ////var assemblysServicesNoInterfaces = Assembly.Load("Blog.Core.Services");
+            ////builder.RegisterAssemblyTypes(assemblysServicesNoInterfaces);
+
+            #endregion
+
+            #region 没有接口的单独类 class 注入
+            ////只能注入该类中的虚方法
+            //builder.RegisterAssemblyTypes(Assembly.GetAssembly(typeof(Love)))
+            //    .EnableClassInterceptors()
+            //    .InterceptedBy(typeof(BlogLogAOP));
+
+            #endregion
+
+            //这里不要再 build 了
+            //var ApplicationContainer = builder.Build();
+
+        }
+
     }
 }

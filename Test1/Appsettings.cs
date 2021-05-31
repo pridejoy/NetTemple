@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Configuration.Json;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,7 +19,7 @@ namespace Test1
             string Path = "appsettings.json";
 
             //如果你把配置文件 是 根据环境变量来分开了，可以这样写
-            //Path = $"appsettings.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")}.json";
+            Path = $"appsettings.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")}.json";
 
             Configuration = new ConfigurationBuilder()
                 .SetBasePath(contentPath)
@@ -32,12 +33,31 @@ namespace Test1
             Configuration = configuration;
         }
 
+        public static IConfiguration GetConfiguration()
+        {
+            if (Configuration == null)
+            {
+                string Path = "appsettings.json";
+                //如何存在开发配置，就读取开发配置
+                //if (System.IO.File.Exists("appsettings.Development.json"))
+                //    Path = "appsettings.Development.json";
+                //config.AddJsonFile(Path, optional: true, reloadOnChange: true);
+                Configuration = new ConfigurationBuilder()
+                    .Add(new JsonConfigurationSource { Path = Path, Optional = false, ReloadOnChange = true })
+                    //这样的话，可以直接读目录里的json文件，而不是 bin 文件夹下的，所以不用修改复制属性
+                    .Build();
+            }
+
+            return Configuration;
+
+        }
+
         /// <summary>
-        /// 封装要操作的字符
-        /// </summary>
-        /// <param name="sections">节点配置</param>
-        /// <returns></returns>
-        public static string app(params string[] sections)
+            /// 封装要操作的字符
+            /// </summary>
+            /// <param name="sections">节点配置</param>
+            /// <returns></returns>
+            public static string app(params string[] sections)
         {
             try
             {

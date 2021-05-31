@@ -1,13 +1,6 @@
+using Autofac.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using  log4net;
 
 namespace Net5.Project
 {
@@ -20,10 +13,10 @@ namespace Net5.Project
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
+                //改用Autofac来实现依赖注入
+                .UseServiceProviderFactory(new AutofacServiceProviderFactory())
                 //.ConfigureLogging(loggingBuilder =>
                 //{
-                //    //这种注册方式有问题，采用下面的放方式
-                //    //loggingBuilder.AddLog4Net("log4net.config");
                 //    //一定要注意文件的路径
                 //    loggingBuilder.AddLog4Net(Path.Combine(Directory.GetCurrentDirectory(), "log4net.config"));
                 //})
