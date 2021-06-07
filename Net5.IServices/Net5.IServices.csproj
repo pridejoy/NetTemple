@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Net5.Repository\Net5.Repository.csproj" />
+    <ProjectReference Include="..\Net5.Model\Net5.Model.csproj" />
   </ItemGroup>
 
 </Project>

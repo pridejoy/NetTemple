@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Net5.IServices\Net5.IServices.csproj" />
+    <ProjectReference Include="..\Net5.Repository\Net5.Repository.csproj" />
   </ItemGroup>
 
 </Project>

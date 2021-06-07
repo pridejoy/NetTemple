@@ -7,8 +7,11 @@ using SqlSugar;
 
 namespace Net5.Model.Models
 {
+
     public class Advertisement
     {
+        [SugarColumn(IsNullable = false, IsPrimaryKey = true)]
+        public int Id { get; set; } 
 
         /// <summary>
         /// 广告图片

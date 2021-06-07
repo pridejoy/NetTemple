@@ -19,10 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Net5.Common\Net5.Common.csproj" />
     <ProjectReference Include="..\Net5.Extensions\Net5.Extensions.csproj" />
-    <ProjectReference Include="..\Net5.IServices\Net5.IServices.csproj" />
-    <ProjectReference Include="..\Net5.Services\Net5.Services.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -19,6 +19,7 @@ namespace Net5.Services
         {
             return await BaseDal.QueryById(objId);
         }
+        
         /// <summary>
         /// 功能描述:根据ID查询一条数据
         /// 作　　者:AZLinli.Blog.Core
