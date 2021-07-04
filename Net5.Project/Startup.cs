@@ -14,6 +14,7 @@ using Swashbuckle.AspNetCore.Filters;
 using System;
 using System.IO;
 using System.Text;
+using LogDashboard;
 using Net5.IServices;
 using Net5.Services;
 
@@ -78,6 +79,9 @@ namespace Net5.Project
                 options.AddPolicy("SystemOrAdmin", policy => policy.RequireRole("Admin", "System"));//或的关系
                 options.AddPolicy("SystemAndAdmin", policy => policy.RequireRole("Admin").RequireRole("System"));//且的关系
             });
+
+            //可视化日志
+            services.AddLogDashboard();
 
             #region 参数
             //读取配置文件
@@ -155,7 +159,8 @@ namespace Net5.Project
 
             }
 
-
+            //启用可视化日志
+            app.UseLogDashboard();
 
             //启用log4
             loggerFactory.AddLog4Net(Path.Combine(Directory.GetCurrentDirectory(), "log4net.config"));

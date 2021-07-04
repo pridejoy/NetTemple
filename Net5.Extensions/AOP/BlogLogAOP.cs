@@ -31,7 +31,7 @@ namespace Net5.Extensions.AOP
             dataIntercept += ($"被拦截方法执行完毕，返回结果：{invocation.ReturnValue}");
 
             #region 输出到当前项目日志
-            var path = Directory.GetCurrentDirectory() + @"\Log2";
+            var path = Directory.GetCurrentDirectory() + @"\Log";
             if (!Directory.Exists(path))
             {
                 Directory.CreateDirectory(path);

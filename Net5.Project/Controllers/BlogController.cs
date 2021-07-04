@@ -4,6 +4,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using LogDashboard.Extensions;
+using Microsoft.Extensions.Logging;
+using Net5.Extensions.AOP;
 using Net5.IServices;
 
 
@@ -11,13 +14,16 @@ namespace Net5.Project.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]
+    [ExecutedFilter]
     public class BlogController : ControllerBase
     {
-
+        private readonly ILogger<BlogController> logger; // <-添加此行
+        
         private readonly IAdvertisementServices _advertisementServices = null;
-        public BlogController(IAdvertisementServices advertisementServices)
+        public BlogController(IAdvertisementServices advertisementServices,ILogger<BlogController> logger)
         {
             _advertisementServices = advertisementServices;
+            this.logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
         //IAdvertisementServices advertisementServices = new AdvertisementServices();
@@ -36,7 +42,10 @@ namespace Net5.Project.Controllers
             b.bID = 1;
             b.bRemark = "qew";
             a.Add(b);
+            logger.LogInformation("测试1"); // <-添加此行
+            logger.LogInformation(a.ToJsonString()); // <-添加此行
             return a;
+
         }
 
         [HttpGet("{id}", Name = "Sum")]
