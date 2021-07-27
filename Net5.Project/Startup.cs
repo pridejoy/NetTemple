@@ -14,9 +14,14 @@ using Swashbuckle.AspNetCore.Filters;
 using System;
 using System.IO;
 using System.Text;
+using Hangfire;
 using LogDashboard;
 using Net5.IServices;
 using Net5.Services;
+using Hangfire.Dashboard;
+using Hangfire.Dashboard.BasicAuthorization;
+using Microsoft.AspNetCore.Http;
+using Net5.Project.Base;
 
 namespace Net5.Project
 {
@@ -34,7 +39,7 @@ namespace Net5.Project
         // 此方法由运行时调用。使用此方法向容器添加服务。
         public void ConfigureServices(IServiceCollection services)
         {
-
+            services.AddHangfire(r => r.UseSqlServerStorage("Server=121.40.104.247;User ID=zk;Password=123456;database=ZhaoShop;"));
             //不然无法读取配置
             services.AddSingleton(new Appsettings(Configuration));
 
@@ -168,6 +173,69 @@ namespace Net5.Project
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            #region Hangfire定时任务
+            var queues = new string[] { "default", "apis", "web", "recurring" };
+            app.UseHangfireServer(new BackgroundJobServerOptions
+            {
+                ServerTimeout = TimeSpan.FromMinutes(4),
+                SchedulePollingInterval = TimeSpan.FromSeconds(15),//秒级任务需要配置短点，一般任务可以配置默认时间，默认15秒
+                ShutdownTimeout = TimeSpan.FromMinutes(30),//超时时间
+                Queues = queues,//队列
+                WorkerCount = Math.Max(Environment.ProcessorCount, 20)//工作线程数，当前允许的最大线程，默认20
+            });
+
+            //授权
+            var filter = new BasicAuthAuthorizationFilter(
+                new BasicAuthAuthorizationFilterOptions
+                {
+                    SslRedirect = false,
+                    // Require secure connection for dashboard
+                    RequireSsl = false,
+                    // Case sensitive login checking
+                    LoginCaseSensitive = false,
+                    // Users
+                    Users = new[]
+                    {
+                        new BasicAuthAuthorizationUser
+                        {
+                            Login = "admin",//访问账号
+                            PasswordClear ="123456" //访问密码
+                        }
+                    }
+                });
+            var options = new DashboardOptions
+            {
+                AppPath = "/",//返回时跳转的地址
+                DisplayStorageConnectionString = false,//是否显示数据库连接信息
+                Authorization = new[]
+                {
+                    filter
+                },
+                IsReadOnlyFunc = Context =>
+                {
+                    return false;//是否只读面板
+                }
+            };
+
+            app.UseHangfireDashboard("/job", options); //可以改变Dashboard的url
+            HangfireDispose.HangfireService();
+
+            #endregion
+
+            app.UseHangfireServer();
+            app.UseHangfireDashboard();
+
+
+            app.Map("/index", r =>
+            {
+                r.Run(context =>
+                {
+                    //任务每分钟执行一次
+                    RecurringJob.AddOrUpdate(() => Console.WriteLine($"ASP.NET Core LineZero"), Cron.Minutely());
+                    return context.Response.WriteAsync("ok");
+                });
+            });
 
             // 先开启认证
             app.UseAuthentication();

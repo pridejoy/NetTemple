@@ -1,0 +1,31 @@
+
+        //根据年月获取所有日期
+
+        //txt="2019-04"
+        public static List<string> CalTime(string txt)
+        {
+            DateTime beginTime = DateTime.Parse(txt + "-01");//本月初
+            DateTime endTime = DateTime.Parse(beginTime.AddMonths(1).AddDays(-1).ToShortDateString());//本月最后一天
+            List<string> dateList = new List<string>();
+            for (DateTime dt = beginTime; dt <= endTime; dt = dt.AddDays(1))
+            {
+                dateList.Add(dt.ToString("yyyy/MM/dd"));
+                //dateList.Add(dt.ToShortDateString());
+            }
+            return dateList;
+        }
+
+
+ List<string> dateList = new List<string>();
+
+            for (int i = 1; i <=12; i++)
+            {
+               var aa=  CalTime($"2023-{i}");
+                dateList.AddRange(aa);
+            }
+            var test = "";
+            foreach (var item in dateList)
+            {
+                test += $" ![{item}](https://gitee.com/Pridejoy/Bing/raw/master/{item}.jpg) \r";
+            }
+

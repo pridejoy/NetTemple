@@ -9,7 +9,7 @@ namespace HangfireDemo
         {
             GlobalConfiguration.Configuration
                 .UseColouredConsoleLogProvider()
-                .UseSqlServerStorage("Server=121.40.104.247;User ID=.;Password=123456;database=ZhaoShop;");
+                .UseSqlServerStorage("Server=121.40.104.247;User ID=zk;Password=123456;database=ZhaoShop;");
 
             //支持基于队列的任务处理：任务执行不是同步的，而是放到一个持久化队列中，以便马上把请求控制权返回给调用者。
             //   BackgroundJob.Enqueue(() => Console.WriteLine("Simple!"));
