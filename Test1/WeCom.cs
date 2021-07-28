@@ -11,7 +11,7 @@ namespace Test1
     class WeCom
     {
         public static string weComCId = "ww2b6ab28532bb0bf8";//企业Id①
-        public static string weComSecret = "EbKnQqG2y1qAVNL42bz7qEYY3jNP3Ys3A17Jnha6lAE"; //应用secret②
+        public static string weComSecret = "******"; //应用secret②
         public static string weComAId = "1000002"; //应用ID③
         public static string weComTouId = "@all"; 
      
