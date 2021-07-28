@@ -13,6 +13,9 @@ namespace Test1
         static void Main(string[] args)
         {
 
+            // 测试
+            Console.Write(new WeCom().SendToWeCom("爱仕达1231231312313121凄凄切切群凄凄切切群凄凄切切群凄凄切切群凄凄切切群凄凄切切群去去去"));
+
             //C#如何用统计数组中相同元素个数
             string[] value = new string[] { "DFF11", "DFF11", "RFF11", "RFF11", "RFF11", "CFF11" };
             var source = value.GroupBy(t => t.Trim()).Select(t => new { count = t.Count(), key = t.Key }).ToArray();
