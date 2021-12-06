@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+
+<body>
+  <div id="app">加载中</div>
+  <script>
+    window.$docsify = {
+      loadSidebar: true, //定制侧边栏
+      name: '知识库',
+      // repo: 'github',  
+      // 加载 _navbar.md
+      // loadNavbar: true,
+      maxLevel: 4,
+      subMaxLevel: 4,
+      search: {
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        paths: [], // or 'auto'
+        placeholder: '搜索',
+
+        noData: 'No Results!',
+
+        // 支持本地化
+        noData: {
+          '/zh-cn/': '找不到结果',
+          '/': 'No Results'
+        },
+        // 搜索标题的最大层级, 1 - 6
+        depth: 4,
+        hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
+
+        // 您可以提供一个正则表达式来匹配前缀。在这种情况下，
+        // 匹配到的字符串将被用来识别索引
+        pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
+      }
+
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- 字数统计 它提供了统计中文汉字和英文单词的功能，并且排除了一些markdown语法的特殊字符例如 -->
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  <!-- 复制到剪贴板 所有的代码块上添加一个简单的Click to copy按钮来允许用户从你的文档中轻易地复制代码-->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <!-- 谷歌统计 - Google Analytics -->
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js" data-ga="UA-XXXXX-Y"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script> -->
+</body>
+
+</html>
