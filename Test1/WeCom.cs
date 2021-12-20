@@ -8,13 +8,12 @@ using System.Threading.Tasks;
 
 namespace Test1
 {
-    class WeCom
+    internal class WeCom
     {
         public static string weComCId = "ww2b6ab28532bb0bf8";//企业Id①
         public static string weComSecret = "******"; //应用secret②
         public static string weComAId = "1000002"; //应用ID③
-        public static string weComTouId = "@all"; 
-     
+        public static string weComTouId = "@all";
 
         /// <summary>
         /// 发送微信通知

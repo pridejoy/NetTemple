@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30517.126
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "基础", "基础", "{EC681E60-CDDA-47DB-8A0B-1A2840C97DEF}"
 EndProject
@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net5.DB", "Net5.DB\Net5.DB.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hangfire", "Hangfire", "{D816F45C-2AAA-40CA-A7AA-9BDB83D5AD28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangfireDemo", "HangfireDemo\HangfireDemo.csproj", "{7CBCD3D6-54FD-4AF0-B97C-85FC0755FE21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HangfireDemo", "HangfireDemo\HangfireDemo.csproj", "{7CBCD3D6-54FD-4AF0-B97C-85FC0755FE21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaddleOCRSharpDemo", "PaddleOCRSharpDemo\PaddleOCRSharpDemo.csproj", "{886E1195-CE4A-4F0A-BD45-952CC51BA5C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,6 +127,10 @@ Global
 		{7CBCD3D6-54FD-4AF0-B97C-85FC0755FE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CBCD3D6-54FD-4AF0-B97C-85FC0755FE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CBCD3D6-54FD-4AF0-B97C-85FC0755FE21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{886E1195-CE4A-4F0A-BD45-952CC51BA5C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{886E1195-CE4A-4F0A-BD45-952CC51BA5C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{886E1195-CE4A-4F0A-BD45-952CC51BA5C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{886E1195-CE4A-4F0A-BD45-952CC51BA5C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -147,6 +153,7 @@ Global
 		{61641A08-B6D4-479B-A145-77CAA5CCB625} = {9644CBFD-A7CD-4EC2-97B3-B68DF4B48F3A}
 		{31768C4E-2EF6-4BFB-96CD-CAD0FB78ADA9} = {9644CBFD-A7CD-4EC2-97B3-B68DF4B48F3A}
 		{7CBCD3D6-54FD-4AF0-B97C-85FC0755FE21} = {D816F45C-2AAA-40CA-A7AA-9BDB83D5AD28}
+		{886E1195-CE4A-4F0A-BD45-952CC51BA5C7} = {01931276-CD38-4DC9-82C6-61C5B39E5B3A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6857292-1ED6-4745-91C4-A810BA862DDD}
