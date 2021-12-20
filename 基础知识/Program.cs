@@ -11,6 +11,7 @@ namespace 基础知识
         {
             #region 基础
 
+            NET6中添加LINQ方法.DoSmaple();
 
             ////数据结构
 
